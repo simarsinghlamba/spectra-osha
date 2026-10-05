@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.zip
+*.parquet
+*.npz
+*.npy
+*.safetensors
+*.bin
+*.pt
+*.joblib
+.env
