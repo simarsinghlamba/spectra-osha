@@ -74,7 +74,7 @@ def sh(cmd, secret=None):
     r = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     out = (r.stdout + r.stderr).strip()
     if secret:
-        out = out.replace(secret, "***")
+        out = out.replace(secret, "***").replace(secret.strip(), "***")
     if out:
         print(out)
     return r.returncode
