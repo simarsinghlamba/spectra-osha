@@ -8,7 +8,7 @@
 <a href="https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/00_quickstart.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 </p>
 
-## The story in 60 seconds
+
 Every day in the US, workers lose fingers in machines, fall from ladders or collapse in the heat. Employers must report
 each severe injury to **OSHA** (the US workplace-safety agency) within 24 hours, in a few sentences. Each report then gets
 an official code for **how** the injury happened: a fall, struck by an object, caught in a machine. More and more,
@@ -182,7 +182,7 @@ tests/       automatic checks on the data (no leaks between years, no private co
 data/        how to download the OSHA data (the data itself is not stored here)
 ```
 
-## Limits (honest)
+## Limitations (honest)
 - Concept-based probes are not expected to beat strong classifiers (Kantamneni et al., ICML 2025). SPECTRA uses them to
   **discover and audit**, not to win a leaderboard.
 - One model (Gemma 3 1B), one main layer, one dictionary size. Concept names are human interpretations.
