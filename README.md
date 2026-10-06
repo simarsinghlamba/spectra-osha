@@ -65,7 +65,7 @@ Everything runs on **free Google Colab** (T4 GPU for notebooks 03, 04, 06).
 2. Open **`00_quickstart`** below and run it: it clones this repo to `MyDrive/spectra`, downloads the OSHA data and checks
    its SHA-256 against the published file.
 3. Run notebooks **01 -> 07** in order. Each saves its outputs to Drive; large files go to `MyDrive/spectra_work` (never in git).
-4. Skip the final *commit / push* cell in each notebook (it needs the author's token). Run `python -m pytest -q tests` to check the data.
+4. Run `python -m pytest -q tests` to check the data.
 
 | Notebook | What it does | Runtime | Time |
 |---|---|---|---|

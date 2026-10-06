@@ -11,7 +11,7 @@
 #     name: python3
 # ---
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="iE4fEjViKV-U" executionInfo={"status": "ok", "timestamp": 1791272589503, "user_tz": -330, "elapsed": 42060, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="40581470-cc2a-489b-a2db-2556a2f0b828"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 42060, "status": "ok", "timestamp": 1791272589503, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="iE4fEjViKV-U" outputId="40581470-cc2a-489b-a2db-2556a2f0b828"
 # !pip -q install statsmodels
 from google.colab import drive, userdata
 drive.mount("/content/drive")
@@ -42,7 +42,7 @@ def rep(name, split, task, y, p):
     r = clf_report(name, split, y, p); r["task"] = task; return r
 print("ready")
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="dhQMrklOKfMh" executionInfo={"status": "ok", "timestamp": 1791276953892, "user_tz": -330, "elapsed": 4355162, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="11a5b143-19a0-4331-d4e4-7b3af3f27838"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 4355162, "status": "ok", "timestamp": 1791276953892, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="dhQMrklOKfMh" outputId="11a5b143-19a0-4331-d4e4-7b3af3f27838"
 rows = []
 for L in CFG["sae_layers"]:
     for kind, scaler in [("dense", StandardScaler), ("saemax", MaxAbsScaler)]:
@@ -65,7 +65,7 @@ res = pd.DataFrame(rows)[["model", "task", "split", "n", "macro_f1", "macro_f1_l
 save_table(res, "probes_event")
 print(res.round(3).to_string(index=False))
 
-# %% colab={"base_uri": "https://localhost:8080/", "height": 669} id="GrRGZYqbKruJ" executionInfo={"status": "ok", "timestamp": 1791277875381, "user_tz": -330, "elapsed": 843991, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="dbdef5f5-a656-40d3-f199-ac68e9e2ab46"
+# %% colab={"base_uri": "https://localhost:8080/", "height": 669} executionInfo={"elapsed": 843991, "status": "ok", "timestamp": 1791277875381, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="GrRGZYqbKruJ" outputId="dbdef5f5-a656-40d3-f199-ac68e9e2ab46"
 L = CFG["sae_main_layer"]
 sc = MaxAbsScaler().fit(A("raw_train", "saemax", L))
 Str, Sva, Ste = (sc.transform(A(f"raw_{s}", "saemax", L)) for s in ["train", "val", "test"])
@@ -90,7 +90,7 @@ ax.set_xscale("log"); ax.set_xlabel("number of SAE features used"); ax.set_ylabe
 fig.tight_layout(); fig.savefig(FIGS / "ksparse_curve.png", dpi=150)
 print(curve[["model", "k", "n_features", "macro_f1", "macro_f1_lo", "macro_f1_hi"]].round(3).to_string(index=False))
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="jbFmG6t1bl6A" executionInfo={"status": "ok", "timestamp": 1791277996313, "user_tz": -330, "elapsed": 99311, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="8881d280-7d99-436a-cdd5-6140370638ad"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 99311, "status": "ok", "timestamp": 1791277996313, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="jbFmG6t1bl6A" outputId="8881d280-7d99-436a-cdd5-6140370638ad"
 n = CFG["masked_train_n"]
 ya_tr, ya_te = train.amputation_bin.values[:n], test.amputation_bin.values
 rows_amp = []
@@ -105,14 +105,5 @@ for variant in ["raw", "masked"]:
             joblib.dump(pipe, MODELS / f"probe_saemax_L13_amp_{variant}.joblib")
 amp = pd.DataFrame(rows_amp); save_table(amp, "probes_amputation_raw_vs_masked")
 print(amp.round(3).to_string(index=False))
-
-# %% colab={"base_uri": "https://localhost:8080/", "height": 349} id="gGnRdc7qe5Pd" executionInfo={"status": "error", "timestamp": 1791278660691, "user_tz": -330, "elapsed": 28782, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="5665a0d8-6ac6-4b6c-f8fb-301cd26175d8"
-commit("Probes: dense vs SAE (L13, L17), k-sparse curve, amputation raw vs masked in Gemma")
-gh = userdata.get("GH_TOKEN").strip()
-sh(f'cd "{REPO}" && git push https://{GH_USER}:{gh}@github.com/{GH_USER}/{GH_REPO}.git main', secret=gh)
-
-# %% colab={"base_uri": "https://localhost:8080/"} id="7RpcSs4yhsqc" executionInfo={"status": "ok", "timestamp": 1791280548230, "user_tz": -330, "elapsed": 5724, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="54de96c4-1588-4515-b90d-74bcf9b543c4"
-gh = userdata.get("GH_TOKEN").strip()
-sh(f'cd "{REPO}" && git push https://{GH_USER}:{gh}@github.com/{GH_USER}/{GH_REPO}.git main', secret=gh)
 
 # %% id="3hRtd1nFo_Hc"

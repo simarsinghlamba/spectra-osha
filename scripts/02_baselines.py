@@ -108,35 +108,8 @@ print(amp.round(3).to_string(index=False))
 
 # %% id="heJk5NiBo8fg"
 from google.colab import userdata
-commit("Baselines: majority + TF-IDF (event, division, shift); amputation raw vs masked")
-gh = userdata.get("GH_TOKEN")
-sh(f'cd "{REPO}" && git push https://{GH_USER}:{gh}@github.com/{GH_USER}/{GH_REPO}.git main', secret=gh)
-print(f"https://github.com/{GH_USER}/{GH_REPO}")
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="y5bRCyWxqPeA" executionInfo={"status": "ok", "timestamp": 1791264645352, "user_tz": -330, "elapsed": 9622, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="2c6e3f2b-ece8-4375-b992-92572e5676c1"
-from google.colab import drive, userdata
-drive.mount("/content/drive")
-import sys; sys.path.insert(0, "/content/drive/MyDrive/spectra")
-from spectra.common import *
-
-gh = userdata.get("GH_TOKEN").strip()
-
-# make sh() always hide secrets, even with stray whitespace
-cp = REPO / "spectra" / "common.py"
-cp.write_text(cp.read_text().replace('out = out.replace(secret, "***")',
-                                     'out = out.replace(secret, "***").replace(secret.strip(), "***")'))
-
-# refuse to push if any token is inside any commit
-leak = sh(f'cd "{REPO}" && git grep -nE "github_pat_|ghp_|hf_[A-Za-z0-9]{{20,}}" $(git rev-list --all)', secret=gh)
-if leak == 0:
-    print("STOP: a token is inside a commit - paste this to Claude, do not push")
-else:
-    print("token scan: clean")
-    commit("Hide secrets robustly in sh()")
-    sh(f'cd "{REPO}" && git push https://{GH_USER}:{gh}@github.com/{GH_USER}/{GH_REPO}.git main', secret=gh)
-    print(f"https://github.com/{GH_USER}/{GH_REPO}")
-
-# %% colab={"base_uri": "https://localhost:8080/"} id="Pf3utgJ2sTor" executionInfo={"status": "ok", "timestamp": 1791264804178, "user_tz": -330, "elapsed": 63815, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="3c323a66-c857-4979-f9a3-965326312a2c"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 63815, "status": "ok", "timestamp": 1791264804178, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="Pf3utgJ2sTor" outputId="3c323a66-c857-4979-f9a3-965326312a2c"
 from google.colab import drive, userdata
 drive.mount("/content/drive")
 import sys; sys.path.insert(0, "/content/drive/MyDrive/spectra")
@@ -185,10 +158,5 @@ amp = pd.DataFrame(rows_amp); save_table(amp, "baselines_amputation_raw_vs_maske
 print(amp.round(3).to_string(index=False))
 
 # !cd /content/drive/MyDrive/spectra && python -m pytest -q tests
-
-# %% colab={"base_uri": "https://localhost:8080/"} id="3UPs8RosstLS" executionInfo={"status": "ok", "timestamp": 1791264903933, "user_tz": -330, "elapsed": 4815, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="1bba4c00-3bfa-4b2d-8f29-15ddd26f15d6"
-commit("Stronger leak-word masking (removes surrounding grammar); rerun amputation raw vs masked")
-gh = userdata.get("GH_TOKEN").strip()
-sh(f'cd "{REPO}" && git push https://{GH_USER}:{gh}@github.com/{GH_USER}/{GH_REPO}.git main', secret=gh)
 
 # %% id="gvg8vDxKtT8L"

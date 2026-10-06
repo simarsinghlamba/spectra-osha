@@ -50,7 +50,6 @@ if dest.exists():
 #
 # **Before step 4:** accept the Gemma licence at https://huggingface.co/google/gemma-3-1b-pt, create a Hugging Face *read* token, and add it in Colab: key icon (Secrets) in the left bar → `HF_TOKEN`.
 # **GPU steps:** Runtime → Change runtime type → T4 GPU.
-# **Skip** the last *commit / push* cell in each notebook (it needs the author's GitHub token).
 # **Do not run** `00_setup.ipynb`: it is the original scaffold notebook and would overwrite the helper code.
 #
 # Prefer Drive? The same notebooks are in `My Drive/spectra/notebooks`; double-click to open in Colab.
