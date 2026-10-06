@@ -11,7 +11,7 @@
 #     name: python3
 # ---
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="lyn4bhY4lwxB" executionInfo={"status": "ok", "timestamp": 1791263199138, "user_tz": -330, "elapsed": 21500, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="7e25d2c4-5f1b-4956-c9b5-0f5401bb1eca"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 21500, "status": "ok", "timestamp": 1791263199138, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="lyn4bhY4lwxB" outputId="7e25d2c4-5f1b-4956-c9b5-0f5401bb1eca"
 # !pip -q install datasketch statsmodels pytest
 from google.colab import drive, userdata
 drive.mount("/content/drive")
@@ -47,7 +47,7 @@ facts = {
 save_json(facts, TABLES / "data_facts.json")
 {k: v for k, v in facts.items() if k != "raw_columns"}
 
-# %% colab={"base_uri": "https://localhost:8080/", "height": 1000} id="RVKtLTKvmvpk" executionInfo={"status": "ok", "timestamp": 1791263314478, "user_tz": -330, "elapsed": 66051, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="7ef4891c-6144-48a7-c9a3-d7c3127cbb33"
+# %% colab={"base_uri": "https://localhost:8080/", "height": 1000} executionInfo={"elapsed": 66051, "status": "ok", "timestamp": 1791263314478, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="RVKtLTKvmvpk" outputId="7ef4891c-6144-48a7-c9a3-d7c3127cbb33"
 n_raw = len(df)
 df = df[df.year.notna() & (df.n_words >= CFG["min_words"]) & df.event2.notna()].copy()
 n_filtered = len(df)
@@ -112,7 +112,7 @@ fig.savefig(FIGS / "oiics_switch_check.png", dpi=150)
 print(len(classes), "classes:", {c: titles[c] for c in classes})
 stats
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="Sae-hWVUnA74" executionInfo={"status": "ok", "timestamp": 1791263402995, "user_tz": -330, "elapsed": 192, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="a5f1f3aa-9127-4bc9-bf21-9bb39d247537"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 192, "status": "ok", "timestamp": 1791263402995, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="Sae-hWVUnA74" outputId="a5f1f3aa-9127-4bc9-bf21-9bb39d247537"
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 60)
 # 1) near-dedupe sanity: an exact copy with one extra word should be dropped
 t0, t1 = df.narrative.iloc[0], df.narrative.iloc[1]
@@ -133,7 +133,7 @@ div = pd.DataFrame({"pre": pre.event2.str[0].value_counts(normalize=True),
                     "post": post.event2.str[0].value_counts(normalize=True)}).round(3)
 print(div)
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="SA6wcd8wnmnz" executionInfo={"status": "ok", "timestamp": 1791263474988, "user_tz": -330, "elapsed": 3630, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="f200d4fe-384c-494c-daa3-c3d5b1cd6dca"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 3630, "status": "ok", "timestamp": 1791263474988, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="SA6wcd8wnmnz" outputId="f200d4fe-384c-494c-daa3-c3d5b1cd6dca"
 DIV_TITLES = {"1": "Violence and other injuries by persons or animals", "2": "Transportation incidents",
               "3": "Fires and explosions", "4": "Falls, slips, trips",
               "5": "Exposure to harmful substances or environments", "6": "Contact with objects and equipment",
@@ -162,8 +162,7 @@ def test_division_labels(d):
 ''')
 print("division labels added")
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="g9MLcTY8n3XU" executionInfo={"status": "ok", "timestamp": 1791263537194, "user_tz": -330, "elapsed": 24771, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="4aadaff2-ad40-4c7b-ad87-ac4d9896e299"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 24771, "status": "ok", "timestamp": 1791263537194, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="g9MLcTY8n3XU" outputId="4aadaff2-ad40-4c7b-ad87-ac4d9896e299"
 # !cd /content/drive/MyDrive/spectra && python -m pytest -q tests
-commit("Data: clean, dedupe, mask, time splits, division labels for OIICS-3 shift, EDA, tests")
 
 # %% id="t6hr4EHGoBY2"

@@ -11,7 +11,7 @@
 #     name: python3
 # ---
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="gI4FV9GTEKmi" executionInfo={"status": "ok", "timestamp": 1791287742643, "user_tz": -330, "elapsed": 43944, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="57a57256-4de7-4000-ecc8-8e9e8e363d2f"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 43944, "status": "ok", "timestamp": 1791287742643, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="gI4FV9GTEKmi" outputId="57a57256-4de7-4000-ecc8-8e9e8e363d2f"
 # !pip -q install statsmodels
 from google.colab import drive, userdata
 drive.mount("/content/drive")
@@ -33,7 +33,7 @@ for c in classes[:-1]:
 save_json(lm, DATA / "label_map.json"); titles = lm["titles"]
 print({c: titles[c] for c in classes})
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="wMkeYm5WESPS" executionInfo={"status": "ok", "timestamp": 1791287863841, "user_tz": -330, "elapsed": 101875, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="245cff98-df77-48a0-8552-19d9fecab7cb"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 101875, "status": "ok", "timestamp": 1791287863841, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="wMkeYm5WESPS" outputId="245cff98-df77-48a0-8552-19d9fecab7cb"
 NAMES = {"B1": "B1 TF-IDF+LR", "M1": "M1 DeBERTa-v3", "dense_L13": "P-dense L13", "saemax_L13": "P-SAE L13",
          "dense_L17": "P-dense L17", "saemax_L17": "P-SAE L17"}
 rows = []
@@ -58,7 +58,7 @@ for a, b in pairs:
 paired = pd.DataFrame(out); save_table(paired, "paired_tests")
 print(); print(paired.round(4).to_string(index=False))
 
-# %% colab={"base_uri": "https://localhost:8080/", "height": 863} id="7XSPf-5uEhsG" executionInfo={"status": "ok", "timestamp": 1791288007560, "user_tz": -330, "elapsed": 127812, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="8bc28795-d1fb-40b4-b3be-614eb92e8926"
+# %% colab={"base_uri": "https://localhost:8080/", "height": 863} executionInfo={"elapsed": 127812, "status": "ok", "timestamp": 1791288007560, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="7XSPf-5uEhsG" outputId="8bc28795-d1fb-40b4-b3be-614eb92e8926"
 L = CFG["sae_main_layer"]
 X_pre = sp.vstack([load_acts(ACTS / "raw_train", "saemax", L), load_acts(ACTS / "raw_test", "saemax", L)]).tocsr()
 pre = pd.concat([train, test]).reset_index(drop=True)
@@ -88,7 +88,7 @@ ax.barh(s2.level.str[:3] + " " + s2.group, s2.overlap_top50, color=np.where(s2.l
 ax.set_xlabel("top-50 concept overlap, 2015-23 vs 2024+"); ax.set_title("Concept stability: divisions (blue) vs 2-digit codes (orange)")
 fig.tight_layout(); fig.savefig(FIGS / "concept_stability.png", dpi=150)
 
-# %% colab={"base_uri": "https://localhost:8080/"} id="jCjIco6yE-cM" executionInfo={"status": "ok", "timestamp": 1791288075434, "user_tz": -330, "elapsed": 56779, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="13617824-9515-47b0-d7ce-fe2b4f3cd080"
+# %% colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 56779, "status": "ok", "timestamp": 1791288075434, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}, "user_tz": -330} id="jCjIco6yE-cM" outputId="13617824-9515-47b0-d7ce-fe2b4f3cd080"
 test["len_tercile"] = pd.qcut(test.n_words, 3, labels=["short", "medium", "long"])
 rows = []
 for key in ["B1", "M1", "saemax_L13"]:
@@ -109,10 +109,5 @@ err[["id", "narrative", "true", "pred_label", "error_type"]].to_csv(REPO / "resu
 test.sample(150, random_state=SEED)[["id", "narrative", "event_full", "event_title"]].assign(looks_miscoded="") \
     .to_csv(REPO / "results" / "label_audit_150.csv", index=False)
 print("sheets saved: results/errors_to_tag.csv, results/label_audit_150.csv")
-
-# %% colab={"base_uri": "https://localhost:8080/"} id="1ccrzNOKFgW4" executionInfo={"status": "ok", "timestamp": 1791288222295, "user_tz": -330, "elapsed": 33650, "user": {"displayName": "Simar Lamba", "userId": "09007720624843286617"}} outputId="d48a51d0-fe50-4093-dc0e-b133d96b6b71"
-commit("Main results, shift drop, paired tests, concept stability (division vs code), subgroups, error sheets")
-gh = userdata.get("GH_TOKEN").strip()
-sh(f'cd "{REPO}" && git push https://{GH_USER}:{gh}@github.com/{GH_USER}/{GH_REPO}.git main', secret=gh)
 
 # %% id="9uPN_VgvGJ27"
