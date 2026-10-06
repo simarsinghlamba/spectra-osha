@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "SPECTRA: Sparse Probing, Explanation, Causal Testing & Robustness Audit of AI injury coders"
+authors:
+  - family-names: Lamba
+    given-names: Simar Singh
+repository-code: "https://github.com/simarsinghlamba/spectra-osha"
+license: MIT
+date-released: 2026-10-06
