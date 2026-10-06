@@ -67,3 +67,15 @@ def point_biserial(X, y):
     t = r * np.sqrt((n - 2) / (1 - r ** 2))
     p = 2 * st.t.sf(np.abs(t), n - 2)
     return r, p
+
+
+def div_from_proba(P, classes, class_div, divs):
+    """Sum 2-digit class probabilities into divisions ('other' ignored, then renormalised)."""
+    P = np.asarray(P, dtype=float)
+    M = np.zeros((len(classes), len(divs)))
+    for i, c in enumerate(classes):
+        if class_div.get(c) is not None:
+            M[i, divs.index(class_div[c])] = 1.0
+    Q = P @ M
+    Q = Q / np.clip(Q.sum(1, keepdims=True), 1e-12, None)
+    return Q.argmax(1), Q
