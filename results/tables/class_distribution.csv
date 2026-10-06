@@ -1,0 +1,20 @@
+class,title,train,val,test,shift
+11,"e.g. Hitting, kicking, beating, shoving",330,67,109,210
+13,"e.g. Other animal bites, nonvenomous",390,42,72,0
+24,"e.g. Pedestrian struck by vehicle in nonroadway area, unspecified",1297,188,333,57
+27,e.g. Part of occupant s body caught between vehicle and other object in nonroadway transport incident,1871,281,417,788
+31,"e.g. Ignition of vapors, gases, or liquids",482,60,114,116
+32,"e.g. Explosion of pressure vessel, piping, or tire",227,29,48,203
+40,"Fall, slip, trip, unspecified ",203,23,30,33
+42," Slip, trip, stumble while stepping between levels",4688,637,1087,150
+43,"e.g. Other fall to lower level, unspecified",6846,851,1543,2458
+51,"e.g. Direct exposure to electricity, unspecified",776,94,178,393
+53,e.g. Exposure to environmental heat,1583,216,389,729
+55,"e.g. Exposure through intact skin, eyes, or other exposed tissue",720,73,140,270
+60,"Contact with objects and equipment, unspecified",412,65,126,228
+62,e.g. Injured by slipping or swinging object held by injured worker,6835,839,1561,186
+63,e.g. Struck against moving part of machinery or equipment,1416,141,264,68
+64,e.g. Caught in running equipment or machinery during regular operation,10109,1173,2012,2159
+71,e.g. Overexertion in lifting-single episode,363,48,63,147
+99,e.g. Nonclassifiable,234,31,37,32
+other,Other (rare classes merged),1218,142,239,9300

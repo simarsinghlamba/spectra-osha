@@ -1,0 +1,46 @@
+event2,pre_share,post_share,pre_title,post_title,in_classes
+11,0.009,0.012,"Hitting, kicking, beating, shoving"," Hitting, kicking, beating by other person  n.e.c.",True
+12,0.004,0.0,"Injury by other person-unintentional or intent unknown, n.e.c.", Intentional self-harm  n.e.c.,False
+13,0.009,0.0,"Other animal bites, nonvenomous",,True
+20,0.0,0.0,"Transportation incident, unspecified", Transportation incidents  unspecified,False
+21,0.0,0.0,"Aircraft incident, n.e.c.", Parachuting and nonpowered aircraft incidents ,False
+22,0.001,0.004,Pedestrian struck by rail vehicle-transportation incident," Fall, contact incident onboard water vehicle",False
+23,0.002,0.001,"Thrown, fell, or jumped from animal being ridden", Non-passenger struck by rail vehicle,False
+24,0.034,0.003,"Pedestrian struck by vehicle in nonroadway area, unspecified"," Thrown, fell, or jumped from animal transportation",True
+25,0.003,0.038,Fall on water vehicle, Pedestrian struck by vehicle in nonroadway area  unspecified,False
+26,0.003,0.002,"Fall or jump from vehicle in normal operation, roadway", Roadway collision with other vehicle(s) moving and standing vehicle ,False
+27,0.047,0.045,Part of occupant s body caught between vehicle and other object in nonroadway transport incident," Collision with stationary object, nonroadway",True
+30,0.0,0.0,"Fire or explosion, unspecified ", Explosions and fires  unspecified,False
+31,0.012,0.007,"Ignition of vapors, gases, or liquids"," Explosion of pressure vessel, piping, or tire",True
+32,0.006,0.012,"Explosion of pressure vessel, piping, or tire", Flash fire,True
+40,0.005,0.002,"Fall, slip, trip, unspecified "," Fall, slip, trip  unspecified ",True
+41,0.003,0.178,Slip on substance without fall, Other fall to lower level  unspecified,False
+42,0.119,0.009,Fall on same level due to slipping ," Slip, trip, stumble while stepping between levels",True
+43,0.172,0.14,"Other fall to lower level, unspecified", Fall on same level due to slip or trip,True
+44,0.003,0.0,"Other jump to lower level, unspecified",,False
+45,0.001,0.0,Fall or jump curtailed by personal fall arrest system ,,False
+49,0.0,0.0,"Fall, slip, trip, n.e.c.",,False
+50,0.0,0.0,"Exposure to harmful substances or environments, unspecified",,False
+51,0.019,0.022,"Direct exposure to electricity, unspecified", Exposure to electric arc,True
+52,0.0,0.0,Exposure to light ,,False
+53,0.04,0.042,Exposure to environmental heat, Contact with hot objects or substances,True
+54,0.0,0.0,Exposure to change in water pressure, Exposure to change in water pressure,False
+55,0.017,0.015,"Exposure through intact skin, eyes, or other exposed tissue", Inhalation of harmful substance  single episode or single shift,True
+56,0.0,0.0,Depletion of oxygen," Drowning, submersion without other event",False
+57,0.0,0.0,"Exposure to traumatic or stressful event, n.e.c. ", Exposure to stressful environment  prolonged,False
+59,0.0,0.0,"Exposure to harmful substances or environments, n.e.c.",,False
+60,0.011,0.013,"Contact with objects and equipment, unspecified", Contact incidents  unspecified,True
+61,0.0,0.002,Needlestick without exposure to harmful substance, Contact with other person while providing medical or custodial care,False
+62,0.171,0.011,Injured by slipping or swinging object held by injured worker," Non-venomous animal bites  except ""bugs""",True
+63,0.034,0.004,Struck against moving part of machinery or equipment," Collapse, engulfment  n.e.c.",True
+64,0.249,0.123,Caught in running equipment or machinery during regular operation, Struck by other falling object  n.e.c.,True
+65,0.003,0.229,"Struck, caught, or crushed in other collapsing structure or equipment"," Struck by running powered equipment  during maintenance, cleaning, testing",False
+66,0.0,0.072,"Rubbed or abraded by shoes, apparel, or accessories", Caught or wedged between objects  nonrunning,False
+69,0.001,0.0,"Contact with objects and equipment, n.e.c.", Contact  n.e.c.,False
+70,0.001,0.0,"Overexertion and bodily reaction, unspecified"," Overexertion, repetitive motion and bodily condition  unspecified",False
+71,0.009,0.008,Overexertion in lifting-single episode, Overexertion while materials moving by hand,True
+73,0.004,0.004,"Bending, crawling, reaching, twisting-single episode"," Twisting, reaching, bending",False
+74,0.0,0.0,"Bodily conditions, n.e.c.",,False
+78,0.0,0.001,Multiple types of overexertions and bodily reactions," Multiple types of overexertions, bodily motion and position",False
+79,0.0,0.0,"Overexertion and bodily reaction and exertion, n.e.c.",,False
+99,0.006,0.002,Nonclassifiable, Event or exposure  unspecified,True

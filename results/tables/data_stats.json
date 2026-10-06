@@ -1,0 +1,24 @@
+{
+  "rows": {
+    "train": 40000,
+    "val": 5000,
+    "test": 8762,
+    "shift": 17527
+  },
+  "train_full_rows": 66151,
+  "val_full_rows": 8787,
+  "n_classes": 19,
+  "pipeline_counts": {
+    "raw": 105996,
+    "filtered": 101232,
+    "exact_dedup": 101227,
+    "near_dedup": 101227
+  },
+  "amputation_prevalence": {
+    "train": 0.269975,
+    "val": 0.2686,
+    "test": 0.2711709655329833,
+    "shift": 0.2597135847549495
+  },
+  "shift_rows_mapped_to_other": 9300
+}

@@ -72,3 +72,7 @@ def test_published_dataset_clean():
     for f in folder.glob("*.parquet"):
         cols = set(pd.read_parquet(f).columns)
         assert not set(PRIVATE_COLS) & cols, f.name
+
+def test_division_labels(d):
+    for s in SPLITS:
+        assert d[s].div_id.notna().all() and d[s].y_div.isin(list("12345679")).all(), s
