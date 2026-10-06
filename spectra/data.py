@@ -115,3 +115,12 @@ def near_dup_keep(texts, threshold=0.9, num_perm=128):
         if i % 20000 == 0:
             print(f"  dedupe {i}/{len(texts)}")
     return keep
+
+
+# Stronger masking: also remove the grammar around an outcome word, so no "the of" holes are left.
+_PRE = r"(?:\b(?:was|were|been|be|is|are|had|has|have)\s+)?(?:\b(?:an?|the|his|her|their|partial(?:ly)?|traumatic|surgical(?:ly)?|complete(?:ly)?)\s+)*"
+_POST = r"(?:\s+(?:of|to|at|off)\b)?"
+MASK_RE = re.compile(_PRE + "(?:" + "|".join(LEAK_PATTERNS) + ")" + _POST, flags=re.IGNORECASE)
+
+def mask_text(t):
+    return re.sub(r"\s+", " ", MASK_RE.sub(" ", t)).strip()
