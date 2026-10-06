@@ -51,7 +51,7 @@ class GemmaReader:
         self.tok = AutoTokenizer.from_pretrained(model_id)
         self.tok.padding_side = "right"
         self.model = AutoModelForCausalLM.from_pretrained(
-            model_id, torch_dtype=torch.float32, attn_implementation="eager").to(device).eval()
+            model_id, dtype=torch.float32, attn_implementation="eager").float().to(device).eval()
         c = self.model.config
         self.n_layers, self.d_model = c.num_hidden_layers, c.hidden_size
         print(f"Gemma loaded: {self.n_layers} layers, hidden {self.d_model}, dtype {self.model.dtype}")
