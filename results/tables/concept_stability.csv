@@ -1,0 +1,23 @@
+level,group,title,n_pre,n_post,overlap_top50,spearman_top50
+division,1,Violence and other injuries by persons or animals,1079,212,0.6,0.21123649459783914
+division,2,Transportation incidents,4340,1637,0.9,0.8044657863145258
+division,3,Fires and explosions,879,321,0.84,0.8002400960384153
+division,4,"Falls, slips, trips",14733,5753,0.78,0.9109723889555822
+division,5,Exposure to harmful substances or environments,3826,1399,0.86,0.9243217286914766
+division,6,Contact with objects and equipment,22938,7937,0.88,0.8554621848739495
+division,7,Overexertion and bodily reaction,696,236,0.76,0.7799759903961584
+2-digit code,11,"e.g. Hitting, kicking, beating, shoving",439,210,0.82,0.7918847539015607
+2-digit code,24,"e.g. Pedestrian struck by vehicle in nonroadway area, unspecified",1630,57,0.0,0.3204321728691476
+2-digit code,27,e.g. Part of occupant s body caught between vehicle and other object in nonroadway transport incident,2288,788,0.88,0.9236494597839136
+2-digit code,31,"e.g. Ignition of vapors, gases, or liquids",596,116,0.32,0.37229291716686674
+2-digit code,32,"e.g. Explosion of pressure vessel, piping, or tire",275,203,0.44,-0.0760144057623049
+2-digit code,42,e.g. Fall on same level due to slipping,5775,150,0.32,0.4224249699879952
+2-digit code,43,"e.g. Other fall to lower level, unspecified",8389,2458,0.1,-0.3299399759903961
+2-digit code,51,"e.g. Direct exposure to electricity, unspecified",954,393,0.88,0.8861944777911165
+2-digit code,53,e.g. Exposure to environmental heat,1972,729,0.86,0.9214405762304921
+2-digit code,55,"e.g. Exposure through intact skin, eyes, or other exposed tissue",860,270,0.86,0.9248979591836733
+2-digit code,60,"Contact with objects and equipment, unspecified",538,228,0.36,0.46420595099958945
+2-digit code,62,e.g. Injured by slipping or swinging object held by injured worker,8396,186,0.06,0.2238175270108043
+2-digit code,63,e.g. Struck against moving part of machinery or equipment,1680,68,0.0,0.2297719087635054
+2-digit code,64,e.g. Caught in running equipment or machinery during regular operation,12121,2159,0.0,-0.5386314525810324
+2-digit code,71,e.g. Overexertion in lifting-single episode,426,147,0.74,0.8169507803121248
