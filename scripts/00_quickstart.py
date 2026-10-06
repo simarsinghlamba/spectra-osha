@@ -35,4 +35,23 @@ if dest.exists():
     print("SHA-256 matches the published file:", sha == EXPECTED)
 
 # %% [markdown]
-# **Next:** open `01_clean_split.ipynb`. Skip the last *commit / push* cell in each notebook; it needs the author's GitHub token. Do **not** run `00_setup.ipynb`: it is the original scaffold notebook and rewrites the helper package from scratch.
+# ## Done. What next?
+# This notebook copied the project into **your** Google Drive (`My Drive/spectra`) and saved the data in `My Drive/spectra_work`. Now run the stages **in order**. Click a link, run all cells top to bottom, then come back for the next one.
+#
+# | Step | Notebook | Runtime | What it does |
+# |---|---|---|---|
+# | 1 | [Open 01_clean_split.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/01_clean_split.ipynb) | CPU | clean, dedupe, mask, time splits |
+# | 2 | [Open 02_baselines.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/02_baselines.ipynb) | CPU | TF-IDF baselines |
+# | 3 | [Open 03_deberta.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/03_deberta.ipynb) | **T4 GPU** | DeBERTa reference model |
+# | 4 | [Open 04_gemma_sae.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/04_gemma_sae.ipynb) | **T4 GPU** | Gemma + SAE features (needs `HF_TOKEN` secret) |
+# | 5 | [Open 05_probes.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/05_probes.ipynb) | CPU | dense vs SAE probes |
+# | 6 | [Open 06_concepts_ablation.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/06_concepts_ablation.ipynb) | **T4 GPU** | concepts + causal ablation (needs `HF_TOKEN`) |
+# | 7 | [Open 07_shift_stats_errors.ipynb](https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/07_shift_stats_errors.ipynb) | CPU | statistics + shift audit |
+#
+# **Before step 4:** accept the Gemma licence at https://huggingface.co/google/gemma-3-1b-pt, create a Hugging Face *read* token, and add it in Colab: key icon (Secrets) in the left bar → `HF_TOKEN`.
+# **GPU steps:** Runtime → Change runtime type → T4 GPU.
+# **Skip** the last *commit / push* cell in each notebook (it needs the author's GitHub token).
+# **Do not run** `00_setup.ipynb`: it is the original scaffold notebook and would overwrite the helper code.
+#
+# Prefer Drive? The same notebooks are in `My Drive/spectra/notebooks`; double-click to open in Colab.
+# Only want to check the numbers? All results are in `results/tables/` in the repo; nothing needs rerunning.
