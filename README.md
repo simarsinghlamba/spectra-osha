@@ -201,4 +201,4 @@ Code: MIT. To cite, see [`CITATION.cff`](CITATION.cff).
 
 **Coming next:** an interactive demo, the cleaned dataset and the trained model on Hugging Face.
 
-<p align="center">Made by <b>Simar Singh Lamba</b> · <a href="https://github.com/simarsinghlamba">github.com/simarsinghlamba</a></p>
+<p align="center">Made by <b>Simar Singh Lamba and Deboleena Debroy</b> · <a href="https://github.com/simarsinghlamba">github.com/simarsinghlamba</a></p>
