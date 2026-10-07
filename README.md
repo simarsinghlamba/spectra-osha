@@ -192,7 +192,7 @@ data/        how to download the OSHA data (the data itself is not stored here)
 
 ## Responsible use
 For research and to support human injury coders only, not for enforcement, ranking employers or individual claims.
-Employer names, addresses and locations are never published.
+Our derived data never includes employer names, addresses or locations. OSHA's original public file is mirrored unchanged as a GitHub release so results can be reproduced exactly.
 
 ## Credits, licences, citation
 Data: US Department of Labor / OSHA Severe Injury Reports (public domain; no endorsement implied).

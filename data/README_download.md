@@ -7,6 +7,8 @@ File used: `January2015toNovember2025.zip` (1 Jan 2015 – 30 Nov 2025)
 SHA-256: a3f7f434e200fb956131f12277378e592993a25db3f328716fbece106f846bb0
 
 **Automatic:** Notebook 00, cell 2.
+**GitHub mirror (exact file, SHA-verified):** https://github.com/simarsinghlamba/spectra-osha/releases/download/data-v1/January2015toNovember2025.zip
+
 **Manual fallback:** open the dashboard in a browser → "Download the full SIR data set" →
 upload the ZIP to `MyDrive/spectra_work/raw/sir.zip`.
 
@@ -14,4 +16,4 @@ OSHA renames the file on each update. If the link is dead, download the newest f
 record its name and hash here; numbers may differ slightly from the published results.
 
 Licence: US federal government work, generally public domain. No DOL endorsement implied.
-Raw data is not stored in this repository. Employer, address and geolocation columns are never published.
+Raw data is not stored in the repository tree; an unmodified copy of OSHA's public file is attached to the `data-v1` release for reproducibility. Our derived data never includes employer, address or location columns.
