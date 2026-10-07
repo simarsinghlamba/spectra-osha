@@ -1,0 +1,1263 @@
+{
+  "457": {
+    "feature": 457,
+    "layer": 13,
+    "snippets": [
+      "garden center gate, but then returned and punched the [[employee]]  again. The employee lost consciousness and was hospitalized.",
+      "which initiated an auto cycle. The robot contacted the [[employee]] , causing him to go in the air and strike",
+      "co-worker. The co-worker struck the [[employee]]  with an impact drill. The employee had a two",
+      "moved forward. The rear of the chassis struck the [[employee]]  and knocked him to the ground, and he was",
+      "when the forklift tipped forward. The cage struck the [[employee]] 's arms, resulting in fractures to both upper",
+      "made a sudden and unexpected movement and stepped on the [[employee]] 's ankle. They sustained an ankle fracture and",
+      "the unit on the conveyor rolled off and struck the [[employee]] . He sustained a lower right leg fracture in two",
+      "forklift, struck the ground, and then struck the [[employee]] 's chest. The employee was hospitalized with hip",
+      "employee. The rebar came loose and struck the [[employee]] , forcing him backward into a stationary conveyor table attached",
+      "drill bit. The drill bit snapped and struck the [[employee]]  in his eye, which resulted in hospitalization."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:62"
+    ],
+    "r_max": 0.3825096497297958,
+    "freq": 0.7863250000005533
+  },
+  "598": {
+    "feature": 598,
+    "layer": 13,
+    "snippets": [
+      "work near the conveyor area. A piece of lumber [[came]]  off the conveyor and caused the employee to sustain a",
+      "matching redundant parts in a CNC lathe. A part [[came]]  out of the chuck, hitting and breaking the guard",
+      "cap on an off-road truck. Hot steam [[came]]  out and burned the employee's neck, chest",
+      "were cutting, sparks flew into the barrel and fire [[came]]  out of a hole on the barrel, catching the",
+      "walking next to a wide flange steel beam when it [[came]]  loose. The beam struck the employee and wedged",
+      "could remove the retaining/lifting chains. The knot [[came]]  undone, causing the rig floor to fall a short",
+      "injured employee was standing on the deck as a load [[came]]  in. The sling popped off the load and the",
+      "to perform loading and unloading operations. A jammed package [[came]]  over the side barrier of the overhead belt system.",
+      ". Flammable vapors in the tank ignited and flames [[came]]  out of the top of the tank. The employee",
+      "portable partition wall in a meeting room. The wall [[came]]  off the track and fell on the employee, who"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:62"
+    ],
+    "r_max": 0.3541640458270273,
+    "freq": 0.7068750000003856
+  },
+  "626": {
+    "feature": 626,
+    "layer": 13,
+    "snippets": [
+      "belt to check its alignment. His right little and [[ring]]  fingers were then pinched between the belt and pulley,",
+      "between two parts, resulting in a left little and [[ring]]  finger fracture and laceration.",
+      "An employee was color coding the ends of pipes [[with]]  spray paint. A pipe got stuck on the fl",
+      "scrap chopper and his left index, middle, and [[ring]]  fingers were crushed.",
+      "as an air seal, their left middle, ring [[,]]  and little fingers were amputated by the moving parts",
+      "and stepped on a protruding 3/8- [[inch]]  rod. The rod punctured the sole of his right",
+      "the employee's left index, middle, and [[ring]]  fingers to be crushed. All three fingers were amput",
+      "the load onto the forks, their right middle and [[ring]]  fingers were caught between the angles and the forks,",
+      "on an airlock blade when their right middle and [[ring]]  fingers were amputated at the first knuckle.",
+      "debris from the mulch compartment, their right index and [[middle]]  fingers were amputated."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.5299752942964997,
+    "freq": 0.6656750000002987
+  },
+  "921": {
+    "feature": 921,
+    "layer": 13,
+    "snippets": [
+      ". The employee was hospitalized. The outdoor temperature was [[]] 90 degrees Fahrenheit.",
+      "in hostage rescue team selection in 85- [[degree]]  heat when they experienced dehydration and a heat-related",
+      "he began to feel dizzy due to dehydration from the [[heat]] .",
+      "An employee had been gardening and felt ill from the [[heat]] . He was hospitalized for dehydration.",
+      "a construction site when they lost consciousness due to the [[heat]] . The employee was hospitalized.",
+      "chainsaw when he became dizzy and lightheaded due to [[heat]]  illness.",
+      "was working when she began experiencing symptoms of dehydration from [[heat]]  exposure. She was hospitalized.",
+      "they began to feel ill and were hospitalized due to [[heat]]  exhaustion.",
+      "on a roller machine when they felt ill due to [[heat]] . The employee was hospitalized due to dehydration.",
+      "employee began to feel dizzy and was hospitalized due to [[heat]]  stress."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:53"
+    ],
+    "r_max": 0.5416863235912949,
+    "freq": 0.20032499999998202
+  },
+  "1381": {
+    "feature": 1381,
+    "layer": 13,
+    "snippets": [
+      "was taking a break from unloading the sintering furnace. [[His]]  left hand became caught between two conveyor belts resulting in",
+      "on the rig floor next to a polishing unit. [[His]]  hand was placed on the polishing unit when the pump",
+      "offloading a flatbed truck. The employee' [[s]]  finger was caught between the load and the forks of",
+      "They were aligning a roller. The injured employee' [[s]]  right index finger was in an air valve hole on",
+      "remove a pallet of water. The injured employee' [[s]]  right foot was struck by a wheel of the pallet",
+      "nylon strap around the shaft to stop the rotation. [[His]]  arm got caught in the strap and was pulled into",
+      "system and pulled the belt to check its alignment. [[His]]  right little and ring fingers were then pinched between the",
+      "An employee was operating a forklift. [[His]]  left leg was caught between his forklift and a second",
+      "in the back of his trailer making a delivery. [[His]]  truck began to roll forward, so he jumped out",
+      "her chair and went to exit her cubical. [[Her]]  foot got caught on the handle of a tote bag"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.46873476522062657,
+    "freq": 0.38822499999996135
+  },
+  "1382": {
+    "feature": 1382,
+    "layer": 13,
+    "snippets": [
+      "the forklift, resulting in an amputation of the little [[finger]]  down to the last knuckle.",
+      "right hand. He suffered an amputation to the little [[finger]]  and a laceration to the ring finger.",
+      "a table saw, resulting in amputation of the ring [[finger]]  and lacerations on two other fingers.",
+      ", resulting in amputations of the ring and little [[fingers]] . The ring finger was reattached.",
+      "left hand, causing a partial amputation of the middle [[finger]] .",
+      "the rotary valve. The employee sustained amputation of four [[fingers]]  on the right hand. The chute was not guarded",
+      ", resulting in the partial amputation of the right middle [[finger]] .",
+      "pump was lowered, resulting in amputation of their right [[thumb]] , ring, and middle fingertips.",
+      "spun, resulting in the amputation of his left index [[finger]] .",
+      "pallet. The employee sustained amputation of the left little [[finger]] ."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:raw",
+      "amputation:masked"
+    ],
+    "r_max": 0.6608039317133365,
+    "freq": 0.47984999999995126,
+    "label": "fingers / thumb (body part)",
+    "rating": "coherent"
+  },
+  "1995": {
+    "feature": 1995,
+    "layer": 13,
+    "snippets": [
+      "a pump truck. He went onto the deck to [[see]]  the pumping location and fell off the deck. The",
+      "An employee went up the paint line to [[see]]  what parts were coming next. She saw some hooks",
+      "An employee was operating a welding machine when they [[saw]]  a flash inside the pipe. The employee then got",
+      "230-kilovolt tower when he [[saw]]  that the pin that was securing the V-string",
+      "while employee 2 was watching. Employee 1 [[saw]]  fire behind the welding smoke and notified employee 2",
+      "employee had finished the day room cleaning procedures when they [[saw]]  a resident exiting the office space. The employee reached",
+      "load. He opened dock door #10 and [[saw]]  the truck staged there begin to pull away from the",
+      "An employee was checking to [[see]]  if the feed throat was clogged on an injection molding",
+      "was patrolling the parking lot of a restaurant when they [[saw]]  someone breaking into a vehicle with a fire extinguisher.",
+      "An employee accessed the platform of a [[saw]]  machine to observe sensor issues. While attempting to fix"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:63"
+    ],
+    "r_max": 0.3624267476964006,
+    "freq": 0.10682499999999231,
+    "label": "see / saw (looking, checking)",
+    "rating": "coherent",
+    "ablation_effect": 0.0432316670956847,
+    "ratio_vs_random": 12.904481858518675,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "63 struck against object"
+  },
+  "2252": {
+    "feature": 2252,
+    "layer": 13,
+    "snippets": [
+      "diving for sea cucumbers at a depth of approximately  [[7]] 0 feet. After completing the dive, they began",
+      ", standing on a plank at a height of  [[3]]  feet. He was preparing to get off the scaffold",
+      "employee was working at a height of approximately 2 [[0]]  feet and was standing outside his forklift's basket",
+      "while on an order picker elevated at approximately 1 [[6]]  feet when they fell to the warehouse floor. The",
+      "was working on a lift that was elevated approximately  [[1]] 0 feet to install a light fixture when he suffered",
+      "The platform and the employee then fell approximately 2 [[3]]  feet to the ground. The employee sustained a lower",
+      "employee was framing a roof and fell approximately 3 [[4]]  feet. The employee sustained bilateral foot fractures, a",
+      "on the second floor when he fell approximately 1 [[2]]  feet off the ladder to the concrete floor below.",
+      "system had left, the employee fell approximately 1 [[8]]  feet through the hole to the concrete floor below.",
+      "dust bin. With the boom elevated approximately 1 [[0]]  feet above the ground, he was driving the lift"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:43"
+    ],
+    "r_max": 0.5548739577350618,
+    "freq": 0.15719999999998677
+  },
+  "2491": {
+    "feature": 2491,
+    "layer": 13,
+    "snippets": [
+      "was operating a register and assisting customers with their right [[hand]]  near the office door. The door was shut and",
+      "a depositor and removed the spatula when his right [[middle]]  finger was partially amputated by the machine.",
+      "was changing the forks on a forklift. His right [[middle]]  fingertip was caught in the forks, resulting in",
+      "print job on a paper converting machine when his left [[middle]]  fingertip was caught in a nip point on a",
+      "a jam from a pallet assembly machine when his right [[middle]]  and ring fingertips were cut resulting in partial amputation of",
+      "was unjamming a rotary valve when their left [[middle]]  fingertip was amputated by the chain/sp",
+      "cable on a roll-off truck when his left [[middle]]  finger was pinched between the cable and the pulley resulting",
+      "the pulley and belt. The employee's right [[middle]]  finger was partially amputated.",
+      "meat buildup from a meat processing machine when his right [[middle]]  finger was partially amputated.",
+      "the bottom of the register, they sustained a left [[middle]]  fingertip amputation from the sharp metal on the cash"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.510732178638552,
+    "freq": 0.3842749999999618
+  },
+  "2565": {
+    "feature": 2565,
+    "layer": 13,
+    "snippets": [
+      "An employee was processing [[ultra]]  high molecular weight (UHMW) polyethylene inserts on",
+      "An employee was using a forklift to lift a [[super]]  sack of carbon when material became stuck under it.",
+      "An employee was attaching a load of [[supers]] acks to the spreader bar of a crane. The",
+      "An employee was hooking and unhooking [[supers]] acks when his hand was caught in the mast of",
+      "by fan blades they were inspecting, resulting in complete [[amputation]]  of their right hand that required hospitalization and surgery.",
+      "engine. The employee removed the hose connected to the [[turbo]]  and was checking the actuator when it pulled the employee",
+      "An employee was operating a zero [[-]] turn lawn mower over a dike when the vehicle crushed",
+      "when liquid natural gas was released, resulting in a [[cryogenic]]  burn to the right hand.",
+      "injuries to the left ring and middle fingers resulting in [[amputation]] .",
+      "employee's right index finger was crushed and required [[amputation]] ."
+    ],
+    "leak_share": 0.3,
+    "targets": [
+      "amputation:raw"
+    ],
+    "r_max": 0.7269228845831948,
+    "freq": 0.3940749999999607,
+    "label": "unclear (ultra/super/turbo + amputation)",
+    "rating": "incoherent"
+  },
+  "2678": {
+    "feature": 2678,
+    "layer": 13,
+    "snippets": [
+      "An employee was sitting [[by]]  a heater when a nearby hydraulic line ruptured, spraying",
+      "An employee came back from break and was walking [[by]]  the clean tote storage area when he slipped on water",
+      "for the end of the day. They were walking [[by]]  the filtering devices on the fryers when hot oil",
+      "employee dropped the chain hoist, causing it to go [[by]]  a 69-kilovolt line.",
+      "The injured employee was standing [[by]]  a pallet adjacent to a storage rack when their right",
+      "2023, an employee was walking [[by]]  a counter as he was leaving the kitchen when a",
+      "An employee was standing [[by]]  a maintenance bay when a bay door began to fall",
+      "An employee was standing [[by]]  a hose reeler as it wound a 6",
+      "the store without paying. The employee was then struck [[by]]  the customer's vehicle, resulting in ankle fractures",
+      "An employee was cutting a two- [[by]] -four with a circular saw and lacerated her"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:24"
+    ],
+    "r_max": 0.26081416294850773,
+    "freq": 0.11859999999999102
+  },
+  "2896": {
+    "feature": 2896,
+    "layer": 13,
+    "snippets": [
+      "the fifth or sixth floor deck, an employee was [[supervising]]  iron workers who were measuring to place rebar.",
+      "An employee was [[supervising]]  crane operations when their right middle finger was caught in",
+      "An employee was [[supervising]]  the loading of an aircraft and attempting to loosen a",
+      "An employee was [[supervising]]  the production line when a pan became jammed in the",
+      "An employee was [[overseeing]]  the manufacturing and machining of a part. The employee",
+      "An employee was directing [[a]]  forklift that was unloading a box truck when the forklift",
+      "An employee was directing [[a]]  forklift driver to put a metal table (jig",
+      "An employee was directing [[a]]  forklift operator when the forklift ran over the employee'",
+      "An employee was [[directing]]  traffic on a deck. After giving the driver of",
+      "An employee was [[directing]]  traffic and performing clean-up activities at a site"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:27"
+    ],
+    "r_max": 0.3497151398462444,
+    "freq": 0.22189999999997964,
+    "label": "supervising / directing others",
+    "rating": "coherent",
+    "ablation_effect": 0.0079749107163766,
+    "ratio_vs_random": 7.532455944406193,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "27 vehicle incident (off-road)"
+  },
+  "3346": {
+    "feature": 3346,
+    "layer": 13,
+    "snippets": [
+      "employee was securing a piece of cargo on a bulk [[carrier]]  ship with chain slings when the plate that holds the",
+      "as a fire watch within the engine compartment of a [[vessel]]  observing the cutting of the hull on the outside.",
+      "An employee was pumping a tank on a [[ship]]  when they stepped backward through a manhole and fell",
+      "for an intermodal container to be discharged off a [[ship]]  and loaded onto the truck. The employee noticed a",
+      "order in the drive through. A dually truck [[drove]]  up the curb, struck the employee and ran over",
+      "collect waste from a business location. The garbage truck [[began]]  to move forward while the injured employee was in front",
+      "while the customer was unloading it. Another truck drove [[by]]  and turned a corner. A log hanging off the",
+      ") while reaching for a cable to connect to a [[ship]] . The employee lost his balance and fell, resulting",
+      "Employees were unloading logs on a logging [[vessel]] . The injured employee was standing on the deck as",
+      "his work semi-truck. Another tractor-trailer [[that]]  was backing in pinned the employee between the trailer and"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:24"
+    ],
+    "r_max": 0.2994165548598337,
+    "freq": 0.4075999999999592
+  },
+  "3448": {
+    "feature": 3448,
+    "layer": 13,
+    "snippets": [
+      ", causing a blockage. The employee was splashed with [[hot]]  water causing burns to the neck, torso, and",
+      "process water when they stepped in an open hole containing [[hot]]  process water, resulting in second-degree burns to",
+      "the slag crust, the slag hit the water and [[hot]]  material was projected towards the equipment. The employee sustained",
+      "as he was leaving the kitchen when a bucket of [[hot]]  water that was placed on a stack of trays fell",
+      "station when his left leg went into a pit of [[hot]]  water that was approximately 160 degrees Fahrenheit",
+      "adjacent ball valve opened. The employee was sprayed with [[hot]]  liquor and burned.",
+      "An employee was removing a water pump when [[hot]]  water from the piping splashed on them, burning both",
+      "a hot water thermalizer when his glove filled with [[hot]]  water causing burns to his right hand. The employee",
+      "in cardboard, then wraps it in film and uses [[heat]]  to seal the product. The chain that pulls the",
+      "on a hot loop tank when they were splashed with [[hot]]  water, resulting in first and second-degree burns"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:53"
+    ],
+    "r_max": 0.7111144612052145,
+    "freq": 0.21009999999998094,
+    "label": "hot liquid / burns",
+    "rating": "coherent",
+    "ablation_effect": 0.1758394728175917,
+    "ratio_vs_random": 130.72369715766,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "53 temperature extremes"
+  },
+  "3481": {
+    "feature": 3481,
+    "layer": 13,
+    "snippets": [
+      "was fixing it when four of his fingers were amput [[ated]] . The machine was not guarded at the time of",
+      "of the employee's left hand fingertips were amput [[ated]] .",
+      ". Their left middle and index fingers were partially amput [[ated]] .",
+      "a cable and the spool and three fingers were amput [[ated]] .",
+      "banding machine when the machine cycled, resulting in amput [[ations]]  to the left index, middle, and ring fingers",
+      "employee's left ring and little fingers were amput [[ated]] .",
+      "in the feed of the cutter, resulting in amput [[ations]]  to their left little and ring fingers.",
+      "two-headed notcher when the blade caused amput [[ations]]  to their right thumb and index finger. The machine",
+      "inside the alignment holes and their fingertip was amput [[ated]] .",
+      "became caught in a nip point, resulting in amput [[ations]]  of fingers on both hands."
+    ],
+    "leak_share": 1.0,
+    "targets": [
+      "amputation:raw"
+    ],
+    "r_max": 0.6956582469912587,
+    "freq": 0.28124999999997313,
+    "label": "word: amputated/amputations (shortcut)",
+    "rating": "coherent"
+  },
+  "3728": {
+    "feature": 3728,
+    "layer": 13,
+    "snippets": [
+      "due to heat. The employee was hospitalized due to [[dehydration]] .",
+      "felt ill from the heat. He was hospitalized for [[dehydration]] .",
+      "product when he became ill. He was hospitalized for [[dehydration]]  and acute kidney failure due to heat/elevated",
+      "feel ill and lightheaded, resulting in hospitalization for [[dehydration]] .",
+      "room and rested. He was later hospitalized with severe [[dehydration]] .",
+      ", lethargy, and numbness. The employee suffered [[dehydration]]  due to heat.",
+      "heat-related illness. The employee was hospitalized for [[dehydration]] .",
+      "when he began to suffer cramps and fatigue due to [[dehydration]] . The employe was hospitalized.",
+      "employee was hospitalized for hyponatremia and hyp [[ophosph]] atemia.",
+      "An employee was working when she began experiencing symptoms of [[dehydration]]  from heat exposure. She was hospitalized."
+    ],
+    "leak_share": 0.4,
+    "targets": [
+      "event:53"
+    ],
+    "r_max": 0.4696403855264536,
+    "freq": 0.017450000000000243
+  },
+  "3881": {
+    "feature": 3881,
+    "layer": 13,
+    "snippets": [
+      "During [[forklift]]  and rigging operations to move screw piles around, the",
+      "A [[forklift]]  was unloading a pallet jack from a rental truck when",
+      "A [[forklift]]  pushed a pallet of metal sheets onto a slitter",
+      "A [[forklift]]  backed into an employee as he was walking through a",
+      "Two [[forkl]] ifts collided in a warehouse. An employee operating one",
+      "An employee was participating in a [[forklift]]  operator training when their left foot was pinned between the",
+      "The injured employee received a [[forklift]]  from a co-worker to pull the oven cart",
+      "An employee was talking to a [[forklift]]  operator when the lift struck the employee, causing a",
+      "An employee had just stopped a [[forklift]]  and dismounted it when another forklift struck him as",
+      "room to free a stuck pallet of product. A [[forklift]]  operator used another pallet to free the stuck pallet from"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:27"
+    ],
+    "r_max": 0.3380085797185803,
+    "freq": 0.7029750000003774,
+    "label": "forklift",
+    "rating": "coherent",
+    "ablation_effect": 0.0888429171381892,
+    "ratio_vs_random": 71.41747736108289,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "27 vehicle incident (off-road)"
+  },
+  "4184": {
+    "feature": 4184,
+    "layer": 13,
+    "snippets": [
+      "An employee was using a 2 [[0]] -25-foot carbon steel rod in a",
+      "An employee was utilizing a 2 [[0]] -ton overhead crane to place a steel insert into",
+      "employee was closing the tailgate/loading ramp of a [[]] 16-foot utility trailer and lining up the",
+      "support pole from the trench box entered the cab of [[the]]  excavator through the front window and struck the employee.",
+      "An employee was sitting in her right-hand [[drive]]  (RHD) delivery vehicle as someone approached the",
+      "An employee parked [[their]]  car and was walking into a restaurant when their right",
+      "was adjusting the locking chain on the rear hatch of [[a]]  dump truck. The hatch shifted and pinched the employee",
+      "An employee parked [[his]]  semi-tractor under a trailer at dock door #",
+      "An employee had just finished backing [[his]]  trailer into the dock and opened the trailer doors when",
+      "dig. As the operator was getting back into the [[mini]]  excavator, the joystick was activated, causing the bucket"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:27"
+    ],
+    "r_max": 0.2762335976316835,
+    "freq": 0.2922249999999719
+  },
+  "5180": {
+    "feature": 5180,
+    "layer": 13,
+    "snippets": [
+      "An employee had just arrived at work and was [[walking]]  into the dressing room to put on their surgical uniform",
+      "An employee was [[walking]]  in a store when she tripped and fell to the",
+      "An employee was [[walking]]  to check product stock levels when a board that was",
+      "An employee was [[walking]]  back to the office when they slipped on water on",
+      "An employee was [[walking]]  between aisles to pick parts for a delivery when her",
+      "An employee was [[walking]]  near a forklift operator who was palletizing fruit pallets",
+      "An employee was [[walking]]  to the office to submit a report when they tripped",
+      "An employee was [[walking]]  in the facility when they were struck by a powered",
+      "An employee was [[walking]]  on top of a crane engine compartment to grease the",
+      "An employee was [[walking]]  on the roof deck performing roofing work when the deck"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:42"
+    ],
+    "r_max": 0.4366299773438479,
+    "freq": 0.5171249999999852,
+    "label": "walking",
+    "rating": "coherent",
+    "ablation_effect": 0.0079146688156682,
+    "ratio_vs_random": 8.510495445620931,
+    "p_bh": 0.0570409982174688,
+    "causal": false,
+    "ablation_class": "42 fall on same level"
+  },
+  "5693": {
+    "feature": 5693,
+    "layer": 13,
+    "snippets": [
+      "An employee was operating a band [[saw]]  to cut plastic scrap when his left middle fingertip",
+      "An employee was operating a sliding table [[saw]]  to cut acrylic strips when they sustained lacerations to",
+      "An employee was securing two pipes on a band [[saw]] . His right hand was placed between the pipes when",
+      "An employee was cleaning a hitch pin on a manual [[lathe]]  using a terrycloth rag. The rag was",
+      "shaft and was pulling the tail stock back on the [[lathe]] . The employee leaned over the machine and the lead",
+      "An employee was lifting a wooden board near a table [[saw]] . The board was not evenly weighted, causing the",
+      "An employee was operating a horizontal band [[saw]]  when their right ring and little fingers were amputated",
+      "An employee was operating a mounting [[machine]] . He was placing material in the machine when his",
+      "An employee was using a bands [[aw]]  to cut conduit when their right index fingertip was",
+      "An employee was trimming back rails on a table [[saw]] . He was clearing a piece of trim when the"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:63"
+    ],
+    "r_max": 0.2430820970273875,
+    "freq": 0.6220250000002066
+  },
+  "6045": {
+    "feature": 6045,
+    "layer": 13,
+    "snippets": [
+      "The employee's right foot was caught between the [[supers]] acks, causing the employee to lose balance and sustain",
+      "arachnoid hemorrhage, displaced temporal bone, and [[nond]] isplaced fracture of the left zygomatic bone.",
+      "struck her finger. The employee's left index [[fingert]] ip was amputated.",
+      "on their right middle finger. The employee's [[fingert]] ip was amputated.",
+      "and a parked cart, resulting in amputation of the [[fingert]] ip.",
+      "/plastic pallet. The employee's left index [[fingert]] ip was amputated without bone loss.",
+      "pushed into place. The employee's right index [[fingert]] ip was amputated.",
+      "outward, resulting in a sprained ligament and a [[nond]] isplaced fracture to the right ankle.",
+      ". The employee suffered an amputation to the left middle [[fingert]] ip.",
+      "between the jack and the carousel. His right little [[fingert]] ip was amputated without bone loss."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.46934060504123437,
+    "freq": 0.11309999999999162
+  },
+  "6381": {
+    "feature": 6381,
+    "layer": 13,
+    "snippets": [
+      "they fell 30 feet from a catwalk to [[the]]  ground. The employee sustained facial injuries and a compound",
+      "when they tripped and fell 15 feet to [[the]]  ground below. The employee sustained a concussion and injuries",
+      "second level when they fell approximately 9 feet to [[the]]  concrete floor below. The employee sustained a right leg",
+      "/joists when they fell 9 feet to [[a]]  lower level. The employee sustained a head injury and",
+      "and fell 12-15 feet to [[the]]  floor. The employee sustained a skull fracture.",
+      "wood from scaffolding when he fell 6 feet to [[the]]  concrete floor below. The employee sustained an arm injury",
+      "ladder when they fell approximately 10 feet to [[the]]  ground below, resulting in broken ribs on their left",
+      "on a wet rung and fell 5 feet to [[the]]  ground. The employee sustained a fractured hip.",
+      "roof when they fell approximately 13 feet to [[the]]  ground, resulting in a back injury.",
+      "when they fell 8-12 feet to [[the]]  ground, resulting in a back injury that required surgery"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:43"
+    ],
+    "r_max": 0.560867523229568,
+    "freq": 0.16919999999998545,
+    "label": "\"fell X feet to the\" (fall phrase)",
+    "rating": "coherent",
+    "ablation_effect": -0.0002407099087937,
+    "ratio_vs_random": -0.3350907000239934,
+    "p_bh": 0.8431372549019608,
+    "causal": false,
+    "ablation_class": "43 fall to lower level"
+  },
+  "6443": {
+    "feature": 6443,
+    "layer": 13,
+    "snippets": [
+      ". He reached down to grab a rag that had [[dropped]]  in front of a fan blade on a radiator.",
+      "An employee was opening a door when their hand [[slipped]]  off the handle. They went to grab the door",
+      "employee was closing an aircraft door when their right hand [[slipped]]  and was caught in the door, resulting in a",
+      "was feeding kale into a food processor when their hand [[slipped]]  and the blade of the food processor amputated their",
+      "area. He was picking up a clamp that had [[fallen]]  between two rails when his hand was caught between a",
+      "employee was stepping out of his truck. He missed [[a]]  step, fell, and hit his head on the",
+      "he was pulling toward his body, his right hand [[slipped]]  from the handle and the metal handle struck his mouth",
+      "from the dining room into the kitchen area to retrieve [[something]]  for a table she was serving. After retrieving the",
+      "As he was pushing the fence, his right hand [[slipped]]  causing his fingers to contact the rotating head. The",
+      "make a delivery. While exiting the truck, he [[lost]]  balance and fell to the parking lot. The employee"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:42"
+    ],
+    "r_max": 0.4129627616430621,
+    "freq": 0.3666999999999637
+  },
+  "6671": {
+    "feature": 6671,
+    "layer": 13,
+    "snippets": [
+      "was on the back of a traffic control trailer deploying [[traffic]]  control devices when he fell to the ground and struck",
+      "employee was standing on the side of the road directing [[traffic]] . A car was turning left and struck a passing",
+      "Employees were putting up [[traffic]]  control signs when a car stopped on the interstate.",
+      "An employee was directing [[traffic]]  and performing clean-up activities at a site they",
+      "An employee was directing [[traffic]]  on a deck. After giving the driver of a",
+      "inside of a work zone. A vehicle entered the [[lane]]  and struck three employees. Two of the employees were",
+      "An employee was in the [[road]]  looking inside a manhole when they were struck by",
+      "a shovel. A motorist drove through the barriers and [[traffic]]  control cones and struck the employee. The employee was",
+      "An employee was making a right [[turn]]  on an unloaded powered pallet jack and lost control.",
+      "An employee was loading concrete [[traffic]]  barriers onto a semi trailer when he tripped, causing"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:24"
+    ],
+    "r_max": 0.301213995836407,
+    "freq": 0.42629999999995716,
+    "label": "road traffic / work zones",
+    "rating": "coherent",
+    "ablation_effect": 0.0254377655862639,
+    "ratio_vs_random": 15.797606760004568,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "24 pedestrian hit by vehicle"
+  },
+  "6789": {
+    "feature": 6789,
+    "layer": 13,
+    "snippets": [
+      "The employee was standing on the PIV with their [[hands]]  over their head when they fell 10 inches",
+      "back in the maintenance area. He placed his left [[hand]]  on the lift railing and the lift struck some racking",
+      "belt. As the employee stood up, their left [[hand]]  made contact with the in-running nip point created",
+      "reached to stop the ladder from tilting, his right [[hand]]  contacted the metal serrated platform. The ladder continued",
+      "ascending an 8-foot track ladder with their [[hands]]  on the steps as they walked up. Their hand",
+      "ed the railroad wheels. The employee's left [[hand]]  was pinched between the forklift and rail wheel, resulting",
+      ". As he was pushing the fence, his right [[hand]]  slipped causing his fingers to contact the rotating head.",
+      "the rear door of the company vehicle when his right [[hand]]  was caught in the door jam. The distal ends",
+      "a torque gun on a bolt head. His left [[hand]]  was on the flange when the arm rotated down,",
+      "he walked around the machine he slipped and put his [[hand]]  down to brace himself. The employee contacted the machine"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:64",
+      "amputation:masked"
+    ],
+    "r_max": 0.6549260786433846,
+    "freq": 0.7098000000003918,
+    "label": "hand (body part)",
+    "rating": "coherent",
+    "ablation_effect": 0.041870237383536,
+    "ratio_vs_random": 45.58448146714208,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "64 caught in machinery"
+  },
+  "6975": {
+    "feature": 6975,
+    "layer": 13,
+    "snippets": [
+      "was descending the resort work road on an all- [[terrain]]  vehicle (ATV) at end of his trail",
+      "employee was conducting patrol enforcement activities on an all- [[terrain]]  vehicle (ATV). While turning on a cal",
+      "An employee was working on a [[rubber]]  mold machine and was using an overhead chain hoist to",
+      "basket and was bitten on the right hand by a [[coral]]  snake that was inside the skimmer.",
+      "and first-degree burns to his hands. A [[generator]]  about 37 feet away had caused the ignition",
+      "operations vessel to extend his radius underwater, as the [[umbilical]]  only allows the diver to travel 300",
+      "An employee was soldering in a [[generator]]  room when they tripped on debris that had been left",
+      "lock blade when their right middle and ring fingers were [[amput]] ated at the first knuckle.",
+      "rotate. Their left middle and index fingers were partially [[amput]] ated.",
+      "pipe that was being lifted. Their fingertip was [[amput]] ated."
+    ],
+    "leak_share": 0.3,
+    "targets": [
+      "amputation:raw"
+    ],
+    "r_max": 0.6872958472517866,
+    "freq": 0.25762499999997573,
+    "label": "unclear (terrain/generator + amput-)",
+    "rating": "incoherent"
+  },
+  "7505": {
+    "feature": 7505,
+    "layer": 13,
+    "snippets": [
+      "employee was setting up a meal service for a new [[hire]]  orientation. The employee was removing food items from a",
+      "Two employees were [[engaged]]  in a fight while the injured employee was working from",
+      "30, 2023, an [[employ]] e was working on a clean-in-place",
+      "A [[contracted]]  employee was harnessed about 25 feet in the",
+      "they had an allergic reaction to the latex. The [[employ]] e was hospitalized.",
+      "to suffer cramps and fatigue due to dehydration. The [[employ]] e was hospitalized.",
+      "between the belts and a pulley. The employee suffered [[amput]] ations to both fingertips.",
+      "1:00 AM, an employee was [[engaged]]  in an altercation with shoplifters. In the",
+      "the auger caught their left fingers, resulting in [[amput]] ations to their ring and middle fingers.",
+      "a building kneeling over a void space. As they [[fired]]  a powder actuator to shoot a rivet into a metal"
+    ],
+    "leak_share": 0.2,
+    "targets": [
+      "event:64",
+      "amputation:raw"
+    ],
+    "r_max": 0.8665164564097572,
+    "freq": 0.28844999999997234,
+    "label": "unclear (word pieces: employ-, amput-)",
+    "rating": "incoherent"
+  },
+  "8056": {
+    "feature": 8056,
+    "layer": 13,
+    "snippets": [
+      "a table and the security guard shot the employee in [[the]]  chest with a handgun.",
+      "into an altercation when one employee shot the other in [[the]]  leg with a handgun. The injured employee was hospitalized",
+      "opened fire with a pistol, shooting one deputy in [[the]]  right ankle and the other in the left femur bone",
+      "when a robber came in and shot the employee in [[the]]  lower right abdomen.",
+      "ant walked into the shop and shot the employee in [[the]]  head.",
+      "gun when it fired. The injured employee was shot [[in]]  the arm and required hospitalization and surgery.",
+      "As the employee went to intervene, they were shot [[in]]  the leg and stomach.",
+      "were ambushed by a robber and stabbed in the [[back]]  with a knife. The employee was hospitalized.",
+      "was on the ground when the tree struck him in [[the]]  arm, resulting in a fracture.",
+      "base at a baseball game when they were struck in [[the]]  head by a baseball thrown from the outfield. The"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:62"
+    ],
+    "r_max": 0.4261251017651748,
+    "freq": 0.7796250000005391,
+    "label": "\"shot/struck in the [body part]\"",
+    "rating": "coherent",
+    "ablation_effect": 0.0200541899806504,
+    "ratio_vs_random": 23.066425350026364,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "62 struck by object"
+  },
+  "8197": {
+    "feature": 8197,
+    "layer": 13,
+    "snippets": [
+      "the ground. The employee sustained the loss of a [[tooth]] , abrasions to the face and hand, and",
+      ". He sustained facial fractures, a spinal injury, [[tooth]]  loss, and rib fractures, requiring hospitalization.",
+      "struck in the mouth by it, resulting in a [[tooth]]  avulsion and a mouth injury that required stitches.",
+      "the employee in the face. The employee lost multiple [[teeth]]  and suffered lacerations and fractures to the face.",
+      "mast of the skid loader. The employee sustained several [[teeth]]  avulsions, a mouth laceration, and bruising",
+      "they fell and sustained fractures to a facial bone and [[tooth]] .",
+      "man while a loader was sorting landfill trash. A [[tooth]]  on the loader's bucket struck his right quadr",
+      "an acute subdural hematoma as well as loose [[teeth]] . The employee was hospitalized.",
+      "fractures to the kneecap, femur, and [[teeth]] , as well as a head injury and brain hemorrh",
+      "face struck the handle on a machine resulting in chipped [[teeth]]  and a laceration inside the mouth."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.468702213107253,
+    "freq": 0.43254999999995647
+  },
+  "8648": {
+    "feature": 8648,
+    "layer": 13,
+    "snippets": [
+      "An employee was [[blending]]  product when he became ill. He was hospitalized for",
+      "the pump jack collapsed. The employee suffered a partial [[amputation]]  to his right middle fingertip.",
+      "by fan blades they were inspecting, resulting in complete [[amputation]]  of their right hand that required hospitalization and surgery.",
+      "and sprocket of a rotating drum, causing a partial [[amputation]]  to the left ring finger. The machine was running",
+      "caught in the belt. The employee suffered a partial [[amputation]]  of the index finger.",
+      "in preparation for an event when they sustained a partial [[amputation]]  of the right thumb.",
+      "caught between the container and the support, resulting in [[amputation]]  just behind the first knuckle.",
+      "on his hand, resulting in a right little finger [[amputation]] .",
+      "and a roller on the router, resulting in an [[amputation]]  of the middle fingertip without bone loss.",
+      "caught in the door, resulting in a little finger [[amputation]] ."
+    ],
+    "leak_share": 0.9,
+    "targets": [
+      "event:64",
+      "amputation:raw"
+    ],
+    "r_max": 0.8008171876162224,
+    "freq": 0.3215249999999687,
+    "label": "word: amputation (shortcut)",
+    "rating": "coherent"
+  },
+  "8707": {
+    "feature": 8707,
+    "layer": 13,
+    "snippets": [
+      "An employee washed her [[hands]]  in a sink. As she backed away from the",
+      "An employee was touching materials with his [[hands]]  and marking them off the shipment list. As the",
+      "An employee slipped on a wet [[floor]]  and fell. He was hospitalized with a back injury",
+      "An employee slipped on a wet [[floor]]  while moving equipment. She fell and suffered a broken",
+      "An employee slipped on a wet [[floor]]  and fell. The employee was hospitalized with a knee",
+      "An employee was walking on a wet [[floor]]  when they slipped and fell, resulting in fractures to",
+      "An employee was walking when they slipped on a wet [[floor]]  and fell, resulting in broken ribs.",
+      "walking to a locker when they stepped over a wet [[floor]]  sign, tripped, and fell. The employee sustained",
+      "trash bag from housekeeping when they slipped on the wet [[floor]]  and fell. The employee sustained a fractured right knee",
+      "forearm that required hospitalization. Personal protective equipment was not [[worn]]  at the time."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:42"
+    ],
+    "r_max": 0.4297958825030534,
+    "freq": 0.5163999999999836,
+    "label": "wet floor",
+    "rating": "partly",
+    "ablation_effect": 0.0011684890030116,
+    "ratio_vs_random": 0.7090820385374608,
+    "p_bh": 0.2171945701357466,
+    "causal": false,
+    "ablation_class": "42 fall on same level"
+  },
+  "8890": {
+    "feature": 8890,
+    "layer": 13,
+    "snippets": [
+      "complete, the employee walked over to his co- [[worker]]  and his foot became caught on the cable, causing",
+      "An employee approached a shoplif [[ter]] . The shoplifter punched the employee and then",
+      "situation with a client. Another client then approached the [[employee]]  and bumped/pushed him, causing the employee",
+      ". The employee turned to talk to a co- [[worker]]  and as the employee turned back around, the beam",
+      "made a sudden and unexpected movement and stepped on the [[employee]] 's ankle. They sustained an ankle fracture and",
+      "The wheel fell off the beam and landed on the [[employee]] 's right foot, resulting in a fracture that",
+      "when it fell off its rollers and landed on the [[employee]] 's left foot, resulting in a broken toe",
+      "As employee was walking when her supervisor called [[her]]  name from behind her. The employee turned around and",
+      "co-worker. The co-worker struck the [[employee]]  with an impact drill. The employee had a two",
+      "employee went to hand a bottle to their co- [[worker]]  when they fell 17 feet through a"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:62"
+    ],
+    "r_max": 0.39275256140021464,
+    "freq": 0.19009999999998314,
+    "label": "person words (employee, co-worker)",
+    "rating": "coherent",
+    "ablation_effect": -0.0003948447010907,
+    "ratio_vs_random": -0.3344710127875607,
+    "p_bh": 0.8431372549019608,
+    "causal": false,
+    "ablation_class": "62 struck by object"
+  },
+  "9079": {
+    "feature": 9079,
+    "layer": 13,
+    "snippets": [
+      "a wire stringing steel rope being flown by a [[helicopter]] . The employee grabbed the steel line and was shocked",
+      "023, an employee was riding a golf [[cart]]  to acquire painting materials when the seat came out of",
+      "An employee was riding in a golf [[cart]]  when they fell to the ground and sustained a head",
+      "An employee was waiting for the [[elevator]]  to get to the floor that he worked on.",
+      "An employee was struck by a utility [[vehicle]]  that was backing into a shop to load a piece",
+      "An employee was operating a golf [[cart]]  on a golf course. As he drove out of",
+      "An employee was operating a golf [[cart]]  when it struck a parked vehicle in the parking lot",
+      "down an aisleway in a three-wheeled golf [[cart]] . They were moving around a parked forklift when a",
+      "finished working her shift and was walking to catch a [[bus]]  to transport her to a parking lot. The employee",
+      "An employee was driving a golf [[cart]]  to the back of the parking lot. While turning"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:27",
+      "event:24"
+    ],
+    "r_max": 0.32457563980132714,
+    "freq": 0.28917499999997226,
+    "label": "vehicles (golf cart, bus, utility vehicle)",
+    "rating": "coherent",
+    "ablation_effect": 0.0001105733058216,
+    "ratio_vs_random": 0.0511880049218857,
+    "p_bh": 0.4705882352941176,
+    "causal": false,
+    "ablation_class": "24 pedestrian hit by vehicle"
+  },
+  "9240": {
+    "feature": 9240,
+    "layer": 13,
+    "snippets": [
+      "focusing and programing lights on a stage when they [[fell]]  off a 4-foot high stage, fracturing",
+      "employee was scanning items on the truck trailer when they [[fell]]  from the access ladder to the ground, resulting in",
+      "was picking up specimens at a client location when they [[fell]]  down the steps, sustaining fractures to the kneec",
+      "employee was cleaning a two-story house. They [[fell]]  approximately 12 feet from the roof to the",
+      "A bale of cotton gin byproduct [[fell]]  from the top of a stack of bales (6",
+      "to wear handcuffs and escape a vehicle. The employee [[fell]]  out of the vehicle and struck his head on the",
+      "employee was delivering mail to a private residence when they [[fell]]  down the steps and sustained a hip injury that required",
+      "An employee was taking items to their vehicle when they [[fell]]  to the pavement, resulting in a broken right femur",
+      "employee was unloading mattresses from a delivery truck when they [[fell]]  approximately 3 feet from the dock to the ground",
+      "was going to check it for missing packages. She [[fell]]  backward 3-4 feet from an elevated platform"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:43",
+      "event:42"
+    ],
+    "r_max": 0.5568755544819722,
+    "freq": 0.5198249999999909
+  },
+  "9385": {
+    "feature": 9385,
+    "layer": 13,
+    "snippets": [
+      "actuator when it pulled the employee's left little [[finger]]  in, partially amputating it.",
+      ". The piston pinched the tip of their left little [[finger]] , resulting in a fracture and an amputation.",
+      "a meat processing machine when his right middle finger was [[partially]]  amputated.",
+      "hole on the barrel, catching the employee's [[shirt]]  on fire. The employee sustained burns to their abdomen",
+      "wrap line when his left index and middle fingers were [[partially]]  amputated, requiring hospitalization.",
+      "and removed the spatula when his right middle finger was [[partially]]  amputated by the machine.",
+      "the machine cycled and the employee's right index [[finger]]  was crushed between the forming die box and the forming",
+      "tire/wheel to check for a noise when their [[finger]]  was caught in the spinning wheel resulting in a distal",
+      ". The machine caught the employee's left index [[finger]]  and amputated it at the second knuckle.",
+      "vacuum unit when suction pulled the employee's left [[hand]]  into the impeller resulting in amputations to their middle"
+    ],
+    "leak_share": 0.3,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.498201044106904,
+    "freq": 0.7000250000003712
+  },
+  "9517": {
+    "feature": 9517,
+    "layer": 13,
+    "snippets": [
+      "An employee was getting into the [[driver]] 's side door of a van when she slipped",
+      "was delivering electrical supplies. The employee climbed into the [[cab]]  of his truck when he lost his balance and fell",
+      "While [[driving]]  a scissor lift through a door, an employee'",
+      "An employee developed a blood clot in the leg while [[driving]]  a work vehicle. The employee was hospitalized.",
+      ", 2023, an employee was [[driving]]  an order picker down an aisle when the mast of",
+      ", 2023, an employee was [[driving]]  a baggage loading tractor (tug) when the tug",
+      ", 2023, an employee was [[driving]]  an electric pallet jack when he noticed an issue with",
+      "A [[driver]]  was outside a truck waiting for the trailer to be",
+      "A [[driver]]  was tarping his loaded trailer when he fell",
+      "A [[driver]]  was delivering solar equipment to a private residence. While"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:27"
+    ],
+    "r_max": 0.30130566703662437,
+    "freq": 0.32634999999996817
+  },
+  "9589": {
+    "feature": 9589,
+    "layer": 13,
+    "snippets": [
+      "outside performing natural gas distribution work. The employee felt [[weak]]  and lightheaded due to possible heat stress and was",
+      "residential solar panels when he began to suffer cramps and [[fatigue]]  due to dehydration. The employe was hospitalized.",
+      "extend the pipe brace he started experiencing dizziness, leth [[argy]] , and numbness. The employee suffered dehydration due to",
+      "work, the employee went to his hotel room and [[rested]] . He was later hospitalized with severe dehydration.",
+      ". She later went to take out the trash and [[collapsed]]  with weakness down her arm and leg. She was",
+      "and maintaining crowd controls when they began to experience heat [[exhaustion]] .",
+      "laying decking on a roof when he began experiencing heat [[exhaustion]] , cramps, and dehydration. The employee was hospitalized",
+      "other employees in the trench. The employee experienced heat [[exhaustion]] .",
+      "when the vehicle struck a parked forklift. The employee [[collapsed]]  after stepping off the vehicle and sustained a left femur",
+      "breath, and confusion/disorientation due to heat [[exhaustion]] ."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:53"
+    ],
+    "r_max": 0.3869768350053352,
+    "freq": 0.14907499999998766
+  },
+  "9720": {
+    "feature": 9720,
+    "layer": 13,
+    "snippets": [
+      "An employee was making wooden [[templates]]  with a table saw when his thumb and fingers were",
+      "glove on his left hand got caught in the saw [[blade]]  resulting in partial amputation of the index finger.",
+      "and ring fingers were amputated by the band saw [[blade]] .",
+      "slipped. His middle finger was then caught on the [[blade]] , resulting in a partial amputation of the fingertip",
+      "pallet when his right hand came in contact with the [[blade]]  of a band saw, resulting in a right ring",
+      "his gloved left index finger was caught in the [[blade]] . As he was pulling his finger away from the",
+      "hand, causing his right index finger to contact the [[blade]] . The employee sustained a partial amputation below the nail",
+      "'s left index finger was struck by a fan [[blade]] , resulting in an amputation.",
+      ", the employee's left middle finger contacted the [[blade]] , resulting in a fingertip amputation.",
+      "and pulled the employee's finger into the saw [[blade]]  resulting in amputation of their right index fingertip."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:63"
+    ],
+    "r_max": 0.35771284224160743,
+    "freq": 0.06559999999999686,
+    "label": "saw / fan blade",
+    "rating": "coherent",
+    "ablation_effect": 0.0039782502038424,
+    "ratio_vs_random": 1.8953483926519352,
+    "p_bh": 0.1045751633986928,
+    "causal": false,
+    "ablation_class": "63 struck against object"
+  },
+  "9762": {
+    "feature": 9762,
+    "layer": 13,
+    "snippets": [
+      "An employee had been gardening and felt ill from the [[heat]] . He was hospitalized for dehydration.",
+      "An employee had been working in a [[hot]]  environment near a burn table. After walking down some",
+      "a construction site when they lost consciousness due to the [[heat]] . The employee was hospitalized.",
+      "operating a vehicle when they began to experience signs of [[heat]]  exhaustion.",
+      "he began to feel dizzy due to dehydration from the [[heat]] .",
+      "the company yard when they began to experience symptoms of [[heat]]  exhaustion and dehydration.",
+      "installing roof curb covers when they began exhibiting symptoms of [[heat]]  exhaustion. Both employees were hospitalized.",
+      "they began to feel ill and were hospitalized due to [[heat]]  exhaustion.",
+      "chainsaw when he became dizzy and lightheaded due to [[heat]]  illness.",
+      "containers and maintaining crowd controls when they began to experience [[heat]]  exhaustion."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:53"
+    ],
+    "r_max": 0.7371013739484527,
+    "freq": 0.10434999999999259,
+    "label": "heat / hot environment",
+    "rating": "coherent",
+    "ablation_effect": 0.012682858484353,
+    "ratio_vs_random": 19.13026199558112,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "53 temperature extremes"
+  },
+  "9861": {
+    "feature": 9861,
+    "layer": 13,
+    "snippets": [
+      "condensate within the pipe, ignited, and blew out [[both]]  ends and where the cut was occurring. The employee",
+      "finger, causing a partial amputation including the loss of [[the]]  nail.",
+      "in his arm, causing the amputation of his right [[hand]]  at the wrist.",
+      "pinched it, and caused the partial amputation of the [[thumb]] .",
+      "the employee's left little finger and amputated [[it]] .",
+      "ring fingers were crushed, resulting in amputations of [[all]]  three fingers.",
+      ". The employee suffered a partial amputation of the front [[portion]]  of the foot and was hospitalized.",
+      "employee sustained a compound wrist fracture that required surgical amputation [[of]]  the hand.",
+      "and the door. The door closed, amputating [[the]]  tip of his left thumb.",
+      "was caught in the machine, which amputated three [[of]]  his fingers."
+    ],
+    "leak_share": 0.3,
+    "targets": [
+      "amputation:raw"
+    ],
+    "r_max": 0.6633085918838029,
+    "freq": 0.6121500000001857,
+    "label": "part lost right after \"amputat-\" (shortcut)",
+    "rating": "coherent"
+  },
+  "10317": {
+    "feature": 10317,
+    "layer": 13,
+    "snippets": [
+      "and was not fitting into place. The employee was [[pointing]]  and his finger was caught between the lid and housing",
+      "and machining of a part. The employee went to [[point]]  to a mark on the part when his glove became",
+      "The machine activated while his right hand was in the [[point]]  of operation resulting in amputation of the index finger to",
+      "in the belt, pulling their left hand into the [[point]]  of operation. The employee's left middle fingert",
+      "brake press when their fingertip was caught in the [[point]]  of operation, resulting in a fingertip amputation.",
+      "injured employee's left hand was caught in the [[point]]  of operation and pierced.",
+      "which was approximately 13 feet away from the [[point]]  of operation, to assist with unloading the finished bar",
+      "sheet break. His hand became caught in a nip [[point]] , resulting in amputations of fingers on both hands",
+      "employee's right hand was pulled into a nip [[point]]  resulting in degloving of the little finger and crush",
+      "his left middle fingertip was caught in a nip [[point]]  on a roller and amputated. The roller was"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "amputation:masked"
+    ],
+    "r_max": 0.5420835689358853,
+    "freq": 0.3687749999999635
+  },
+  "11337": {
+    "feature": 11337,
+    "layer": 13,
+    "snippets": [
+      "An employee was lifted 15 feet in a [[blue]]  carry cart picking products for transfer. While the employee",
+      "employee was putting merchandise away when they slipped on a [[blue]]  bin rolling cart and fell. The employee was hospitalized",
+      "helmet and set it to the side, the sand [[bl]] aster activated and started whipping through the air. He",
+      "An employee was hydro [[bl]] asting when they slipped and the pressurized water stream lacer",
+      "hand was caught between the shell and hub of the [[bladder]] less bead rings. The employee sustained amputations to",
+      "An employee was rolling a drill pipe into the shot [[blaster]] . The shot blaster door closed as the employee was",
+      "An employee was adjusting a [[blade]]  on a padder machine. As he manually turned",
+      "was clearing a two-headed notcher when the [[blade]]  caused amputations to their right thumb and index finger",
+      "pallet when his right hand came in contact with the [[blade]]  of a band saw, resulting in a right ring",
+      "was completing a quality assurance inspection on an airlock [[blade]]  when their right middle and ring fingers were amputated"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:63"
+    ],
+    "r_max": 0.27034858303726317,
+    "freq": 0.155099999999987
+  },
+  "11453": {
+    "feature": 11453,
+    "layer": 13,
+    "snippets": [
+      "who was on a 10-foot- [[high]]  catwalk. The board was 4 feet by",
+      "was dry-docked. He had ascended a [[]] 10-to-12-foot ladder",
+      "An employee was climbing a 24- [[foot]]  extension ladder in front of a residential home when he",
+      "An employee was standing five feet [[up]]  on a 12-14 foot extension",
+      "An employee was servicing a piece of equipment while halfway [[up]]  a 6-foot step ladder when he fell",
+      "An employee was climbing a 12- [[foot]]  extension ladder to fasten a manway. The employee",
+      "to a roof. The employee came down from the [[roof]]  to refill the gas of an airless spray pump",
+      "they slipped and fell while coming down from the top [[of]]  the trailer. The employee sustained fractures to the T",
+      "-pound package fell onto the employee from the height [[of]]  the rafters causing a fractured neck and contusions to",
+      "An employee was climbing up to the top [[of]]  a grain bin to give another employee a tool when"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:43"
+    ],
+    "r_max": 0.6965875013051617,
+    "freq": 0.418874999999958,
+    "label": "height / elevation (X-foot, up, top of)",
+    "rating": "coherent",
+    "ablation_effect": 0.0125750797868636,
+    "ratio_vs_random": 18.06028905230528,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "43 fall to lower level"
+  },
+  "12524": {
+    "feature": 12524,
+    "layer": 13,
+    "snippets": [
+      "was fixing it when four of his fingers were amput [[ated]] . The machine was not guarded at the time of",
+      ". The employee's left index finger was amput [[ated]]  to the first knuckle.",
+      "cut chop saw when three of his fingers were amput [[ated]]  at the first knuckle.",
+      "of the employee's left hand fingertips were amput [[ated]] .",
+      "the forklift. His left little finger was partially amput [[ated]] .",
+      "The machine started and their left ring finger was amput [[ated]] .",
+      "processing machine when his right middle finger was partially amput [[ated]] .",
+      "machine when two fingertips on his right hand were amput [[ated]]  by the machine.",
+      "The employee's left index finger was partially amput [[ated]]  by the reel cutter.",
+      "for another employee when their little finger was partially amput [[ated]]  in the door jam as it was closing."
+    ],
+    "leak_share": 1.0,
+    "targets": [
+      "event:64",
+      "amputation:raw"
+    ],
+    "r_max": 0.7074818097317233,
+    "freq": 0.30999999999996997,
+    "label": "word: amputated (shortcut)",
+    "rating": "coherent"
+  },
+  "12699": {
+    "feature": 12699,
+    "layer": 13,
+    "snippets": [
+      "An employee was taking trash from the [[roof]]  to a dumpster. While walking on the roof,",
+      "box attached to a forklift at the edge of the [[roof]]  when he tripped and fell off the roof. The",
+      "An employee was on the edge of a [[roof]]  when they slipped on dew and fell approximately 4",
+      "An employee was accessing a [[roof]]  when they tripped and fell 15 feet to",
+      "An employee was carrying supplies on a [[roof]]  when they fell 25 feet through a skyl",
+      "An employee was installing screws on a second [[floor]]  window when the ladder he was using slipped out from",
+      "2023, an employee was leaving the [[roof]]  of a commercial roofing project and fell while descending a",
+      "An employee was on a first- [[floor]]  roof cleaning windows with a pole when he fell through",
+      "An employee was walking on the [[roof]]  of a home. The building was covered by a",
+      "An employee was walking on the [[roof]]  deck performing roofing work when the deck collapsed. The"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:43"
+    ],
+    "r_max": 0.545493482213493,
+    "freq": 0.4151499999999584
+  },
+  "12882": {
+    "feature": 12882,
+    "layer": 13,
+    "snippets": [
+      "in the bullpen where material is stored. The employee [[cut]]  one of the straps securing PVC pipes on a pallet",
+      "An employee was repairing a hydraulic hose and [[cutting]]  the hose to specification using a sawing machine. The",
+      "An employee was performing plumbing work and [[cutting]]  zip ties with a knife when he sustained a puncture",
+      "An employee was performing line clearing operations. The employee [[cut]]  a tree limb that moved unexpectedly and he tried to",
+      "An employee was being trained on how to [[cut]]  ribeye meat on a band saw. The rib",
+      "An employee was attempting to [[cut]]  a piece of wood when his hand slipped and contacted",
+      "An employee was [[cutting]]  an onion with a chef's knife. The",
+      "An employee was [[cutting]]  a frame with a saw and partially amputated their",
+      "An employee was [[cutting]]  tree limbs with a battery-powered angle grinder that",
+      "An employee was [[cutting]]  meat on a band saw and partially amputated his"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:63"
+    ],
+    "r_max": 0.3001513890150532,
+    "freq": 0.7509500000004786
+  },
+  "13242": {
+    "feature": 13242,
+    "layer": 13,
+    "snippets": [
+      "employee was using a gait belt to help transfer a [[resident]]  back into a wheelchair. The employee heard a pop",
+      "finished the day room cleaning procedures when they saw a [[resident]]  exiting the office space. The employee reached for the",
+      "An employee had been assisting a client with daily [[living]]  activates. The employee was leaving the client's",
+      "An employee was working as a nurse at a nursing [[care]]  facility. While in the locker room, the employee",
+      "an employee was working as a driver and assisting a [[resident]]  with exiting a transport van. As the employee was",
+      "An employee was making a parcel delivery to a residential [[home]]  when he fell from the delivery truck. The employee",
+      "An employee was working at a [[care]]  facility when a fire started. The employee suffered smoke",
+      "and got up from the table to check on the [[residents]] . The employee's foot got caught on the",
+      ". As he reached to grab his laptop, his [[walker]]  moved, and the employee slipped and fell. The",
+      "alarm to turn it off. The employee's [[cane]]  slipped and he fell, sustaining two shoulder fractures."
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:42"
+    ],
+    "r_max": 0.39328833866663554,
+    "freq": 0.16562499999998584
+  },
+  "14619": {
+    "feature": 14619,
+    "layer": 13,
+    "snippets": [
+      "golf cart detached. The employee and the seat slid [[across]]  the gravel surface and he struck the dumpster with the",
+      "ighing 5,182 pounds) [[rolled]]  down onto his right leg. He was pinned and",
+      "5-inch-pipe by hand when it slipped [[from]]  the burn bed discharge rails. The employee was hospitalized",
+      "from one tote to another when the elevated tote fell [[into]]  the lower tote. The lower tote then fell onto",
+      "bit free. Both the drill and the bit fell [[down]]  the post and ripped the tip of the employee'",
+      "excavator when it tipped over and fell off the dock [[into]]  the water. The employee sustained a pelvis fracture.",
+      "up door started to close automatically. It fell to [[the]]  floor as the employee was underneath it. The employee",
+      "entrance of a paint shop when the truck body moved [[on]]  the conveying system, causing the employee to get struck",
+      "make an adjustment, the blade broke and a piece [[bounced]]  off the floor and struck him in the abdomen,",
+      "outrigger planking. The planking rolled [[from]]  beneath him and he fell through an opening that was"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:62"
+    ],
+    "r_max": 0.352732367861266,
+    "freq": 0.6005750000001613
+  },
+  "15605": {
+    "feature": 15605,
+    "layer": 13,
+    "snippets": [
+      "and was walking when they were struck by a reversing [[truck]] . The employee was knocked to the ground and the",
+      "it out. The employee was struck by the do [[zer]]  from behind, resulting in injuries to the left leg",
+      "As he stepped back and off the stand, an [[oncoming]]  vehicle struck his left side, resulting in fractures to",
+      "an employee was delivering pizzas when they were ambushed [[by]]  a robber and stabbed in the back with a knife",
+      "with a cutting torch. The employee was struck by [[a]]  falling steel plate after it was cut from another plate",
+      "of a crane setup when they were run over by [[a]]  forklift. The employee sustained fractures to their back,",
+      "vestibule of the store when they were assaulted by [[two]]  unknown males and stabbed with a knife. The employee",
+      "back into the fuel truck when he was struck by [[the]]  catwalk/stairs of the crane. The employee was",
+      "looking inside a manhole when they were struck by [[a]]  box truck. The employee sustained injuries to his head",
+      "employee was operating an ATV when they were struck by [[a]]  vehicle. The employee sustained multiple bruises and internal injuries"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:24"
+    ],
+    "r_max": 0.2858203114781726,
+    "freq": 0.42182499999995765
+  },
+  "16147": {
+    "feature": 16147,
+    "layer": 13,
+    "snippets": [
+      "while a resident was coming down the hall in his [[wheelchair]] . The employee tripped over his wheelchair and fell,",
+      "pump booth when his leg was caught between his electric [[wheelchair]]  and the door jamb, resulting in a leg fracture",
+      "down an exit ramp to the parking lot, their [[wheelchair]]  struck a bump and the foot plate became jammed.",
+      "An employee was walking when they tripped over a [[wheelchair]] , resulting in a dislocated shoulder while attempting to",
+      ". As he reached to grab his laptop, his [[walker]]  moved, and the employee slipped and fell. The",
+      "alarm to turn it off. The employee's [[cane]]  slipped and he fell, sustaining two shoulder fractures.",
+      "An elevator mechanic was lifting a [[wheelchair]]  lift frame when the load shifted, catching him between",
+      "An employee was coming into work on a knee [[scooter]]  when the scooter's front wheel hit an uneven",
+      ", resulting in a right thumb injury that required surgical [[amputation]] .",
+      "forks, resulting in a crush injury that required surgical [[amputation]]  of 3 millimeters of the finger."
+    ],
+    "leak_share": 0.2,
+    "targets": [
+      "amputation:raw"
+    ],
+    "r_max": 0.7711686698253186,
+    "freq": 0.43352499999995636,
+    "label": "mobility aids (wheelchair, walker, cane)",
+    "rating": "partly"
+  },
+  "16283": {
+    "feature": 16283,
+    "layer": 13,
+    "snippets": [
+      "An employee was leaving the operator platform of a [[dig]] ger derrick. The employee stepped off their seat",
+      "riggers. The outriggers crushed the first [[digit]]  of the little toe on the employee's left",
+      "An employee was showing an operator where to [[dig]] . As the operator was getting back into the mini",
+      "paperwork that was placed on the front bumper of a [[dig]] ger truck when a skid steer backed over the employee",
+      "it dropped low enough to contact the boom of the [[dig]] ger derrick truck. Two employees standing next to",
+      "the belt, resulting in amputation of the left middle [[digit]] .",
+      "bus to be towed by a wrecker. Their [[finger]]  became caught between two \"break away\" chains when",
+      "uted fracture of the distal phalanx of the fourth [[digit]] .",
+      "caught in a belt within the unit, resulting in [[finger]]  lacerations and a partial finger amputation.",
+      "An employee was working outside troubleshooting a gas leak and [[digging]] . The employee started to feel ill and was hospitalized"
+    ],
+    "leak_share": 0.0,
+    "targets": [
+      "event:64",
+      "amputation:raw",
+      "amputation:masked"
+    ],
+    "r_max": 0.7742032678154535,
+    "freq": 0.3023749999999708,
+    "label": "\"dig\" spelling + finger/digit",
+    "rating": "partly",
+    "ablation_effect": 0.0055961707123517,
+    "ratio_vs_random": 5.619970609964976,
+    "p_bh": 0.0313725490196078,
+    "causal": true,
+    "ablation_class": "64 caught in machinery"
+  }
+}

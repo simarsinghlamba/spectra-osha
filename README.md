@@ -6,6 +6,9 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 <img src="https://img.shields.io/badge/python-3.13-blue.svg">
 <a href="https://colab.research.google.com/github/simarsinghlamba/spectra-osha/blob/main/notebooks/00_quickstart.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+<a href="https://huggingface.co/spaces/Simar123456/spectra-demo"><img src="https://img.shields.io/badge/Hugging%20Face-Demo-orange"></a>
+<a href="https://huggingface.co/datasets/Simar123456/spectra-osha-sir"><img src="https://img.shields.io/badge/Hugging%20Face-Dataset-yellow"></a>
+<a href="https://huggingface.co/Simar123456/spectra-deberta-oiics"><img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow"></a>
 </p>
 
 
@@ -22,6 +25,8 @@ thousands of human-readable *concepts*, and tests which concepts it really uses.
 
 > **In one line:** the model can do the job from real hazard concepts, but it grabs a give-away word whenever one is
 > there, and when OSHA renumbered its codes in 2024, the concepts behind several codes stopped lining up.
+
+**Try it online:** [interactive demo](https://huggingface.co/spaces/Simar123456/spectra-demo) · [dataset](https://huggingface.co/datasets/Simar123456/spectra-osha-sir) · [model](https://huggingface.co/Simar123456/spectra-deberta-oiics)
 
 ## Why it matters
 - Safety agencies, insurers and companies use auto-coded injury data to decide **where to inspect and what to fix**.
@@ -90,6 +95,30 @@ flowchart LR
 
 <p align="center"><img src="results/figures/ablation.png" width="600"></p>
 
+<details><summary><b>All 16 tested concepts, with human labels</b></summary>
+
+| Concept | Human label | Injury type | Confidence drop | Causal |
+|---|---|---|---|---|
+| #3448 | hot liquid / burns | 53 temperature extremes | 0.176 | yes |
+| #3881 | forklift | 27 vehicle incident (off-road) | 0.089 | yes |
+| #1995 | see / saw (looking, checking) | 63 struck against object | 0.043 | yes |
+| #6789 | hand (body part) | 64 caught in machinery | 0.042 | yes |
+| #6671 | road traffic / work zones | 24 pedestrian hit by vehicle | 0.025 | yes |
+| #8056 | "shot/struck in the [body part]" | 62 struck by object | 0.020 | yes |
+| #9762 | heat / hot environment | 53 temperature extremes | 0.013 | yes |
+| #11453 | height / elevation (X-foot, up, top of) | 43 fall to lower level | 0.013 | yes |
+| #2896 | supervising / directing others | 27 vehicle incident (off-road) | 0.008 | yes |
+| #5180 | walking | 42 fall on same level | 0.008 | no |
+| #16283 | "dig" spelling + finger/digit | 64 caught in machinery | 0.006 | yes |
+| #9720 | saw / fan blade | 63 struck against object | 0.004 | no |
+| #8707 | wet floor | 42 fall on same level | 0.001 | no |
+| #9079 | vehicles (golf cart, bus, utility vehicle) | 24 pedestrian hit by vehicle | 0.000 | no |
+| #6381 | "fell X feet to the" (fall phrase) | 43 fall to lower level | -0.000 | no |
+| #8890 | person words (employee, co-worker) | 62 struck by object | -0.000 | no |
+</details>
+
+**Human check:** of 25 key concepts, 19 were rated coherent, 3 partly coherent and 3 incoherent (labels drafted with an AI assistant, reviewed by a human).
+
 <details><summary>Where does that concept fire? (two real reports; the bold word is where it is strongest)</summary>
 
 > , causing a blockage. The employee was splashed with **hot**  water causing burns to the neck, torso, and
@@ -113,6 +142,22 @@ flowchart LR
 ```
 
 <p align="center"><img src="results/figures/shortcut.png" width="640"></p>
+
+<details><summary><b>The 10 concepts Gemma leans on most for amputation (original text)</b></summary>
+
+| Concept | Human label | Fires on the give-away word | Still used when the word is removed? |
+|---|---|---|---|
+| #7505 | unclear (word pieces: employ-, amput-) | 20% | no |
+| #8648 | word: amputation (shortcut) | 90% | no |
+| #16283 | "dig" spelling + finger/digit | 0% | yes |
+| #16147 | mobility aids (wheelchair, walker, cane) | 20% | no |
+| #2565 | unclear (ultra/super/turbo + amputation) | 30% | no |
+| #12524 | word: amputated (shortcut) | 100% | no |
+| #3481 | word: amputated/amputations (shortcut) | 100% | no |
+| #6975 | unclear (terrain/generator + amput-) | 30% | no |
+| #9861 | part lost right after "amputat-" (shortcut) | 30% | no |
+| #1382 | fingers / thumb (body part) | 0% | yes |
+</details>
 
 ### 4. In 2024 the codes changed meaning, silently
 In 2024 OSHA switched coding systems (OIICS 2 → 3). Many numbers stayed but **their meanings moved**: code 43 used to
@@ -179,13 +224,15 @@ notebooks/   one Colab notebook per stage (00_quickstart first)
 scripts/     the same stages as plain Python files
 results/     every number (tables/*.csv) and every chart (figures/*.png) in this README
 tests/       automatic checks on the data (no leaks between years, no private columns, ...)
+cards/       data card and model card
+demo/        the interactive demo page (also on Hugging Face)
 data/        how to download the OSHA data (the data itself is not stored here)
 ```
 
 ## Limitations (honest)
 - Concept-based probes are not expected to beat strong classifiers (Kantamneni et al., ICML 2025). SPECTRA uses them to
   **discover and audit**, not to win a leaderboard.
-- One model (Gemma 3 1B), one main layer, one dictionary size. Concept names are human interpretations.
+- One model (Gemma 3 1B), one main layer, one dictionary size. Concept labels and ratings were drafted with an AI assistant and reviewed by a human; they are interpretations, not ground truth.
 - Give-away words are removed with rules; a few faint traces remain (e.g. "had to").
 - Each switch-off test is compared with 50 random concepts, so the smallest possible p-value is about 0.02.
 - Reports are written by employers and cover federal-OSHA states only.
@@ -199,6 +246,6 @@ Data: US Department of Labor / OSHA Severe Injury Reports (public domain; no end
 Gemma 3: Gemma Terms of Use. Gemma Scope 2: Google DeepMind (CC-BY-4.0). DeBERTa-v3: Microsoft (MIT).
 Code: MIT. To cite, see [`CITATION.cff`](CITATION.cff).
 
-**Coming next:** an interactive demo, the cleaned dataset and the trained model on Hugging Face.
+**On Hugging Face:** [interactive demo](https://huggingface.co/spaces/Simar123456/spectra-demo) · [dataset](https://huggingface.co/datasets/Simar123456/spectra-osha-sir) · [model](https://huggingface.co/Simar123456/spectra-deberta-oiics). Data and model cards are also in [`cards/`](cards).
 
 <p align="center">Made by <b>Simar Singh Lamba and Deboleena Debroy</b> · <a href="https://github.com/simarsinghlamba">github.com/simarsinghlamba</a></p>

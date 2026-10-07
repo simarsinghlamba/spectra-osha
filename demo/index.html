@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPECTRA demo</title>
+<style>
+:root{--bg:#fafaf7;--fg:#1c1c1a;--muted:#6b6b66;--card:#fff;--line:#e4e2dc;--accent:#c2410c;--hl:234,108,40}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ecebe6;--muted:#9a9890;--card:#1e1e1c;--line:#33322f;--accent:#fb923c;--hl:251,146,60}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px}h1{font-size:28px;margin:0}.sub{color:var(--muted);margin:4px 0 8px}
+.links a{color:var(--accent);margin-right:14px;font-size:14px}
+.how{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:14px 0;font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:16px 0 20px}
+.stat,.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.stat b{display:block;font-size:22px}.stat span{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+select{width:100%;padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+.text{margin-top:12px;line-height:2}.tok{border-radius:3px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{border:1px solid var(--line);background:none;color:var(--fg);border-radius:999px;padding:4px 10px;cursor:pointer;font:inherit;font-size:13px}
+.chip.on{border-color:var(--accent);color:var(--accent)}.meta{color:var(--muted);font-size:13px;margin-top:8px}
+.snip{font-size:13px;border-top:1px solid var(--line);padding:6px 0}.snip mark{background:rgba(var(--hl),.4);color:inherit;border-radius:3px;padding:0 2px}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;border:1px solid var(--line);margin:0 6px 6px 0}
+.tag.warn{border-color:var(--accent);color:var(--accent)}h2{font-size:18px;margin:0 0 6px}footer{color:var(--muted);font-size:12px;margin-top:24px}
+</style></head>
+<body><main>
+<h1 id="title">SPECTRA</h1><p class="sub" id="subtitle"></p><div class="links" id="links"></div>
+<div class="how"><b>How to read this page:</b> pick an injury report. Gemma reads it, and each coloured chip is a
+<i>concept</i> it formed inside. Click a chip to highlight the words where that concept fires. The card on the right shows
+what the concept is (a human label), where it fires in other reports, and what happens to the prediction when it is switched off.</div>
+<div class="stats" id="stats"></div>
+<div class="grid">
+<section class="panel"><label class="meta" for="ex">Pick an injury report (2023 test set)</label><select id="ex"></select>
+<div class="meta" id="labels"></div><div class="text" id="text"></div>
+<div class="meta">Concepts active in this report (click one):</div><div class="chips" id="chips"></div></section>
+<section class="panel" id="card"></section></div>
+<footer>Data: US OSHA Severe Injury Reports (public domain; no endorsement by the US Department of Labor implied).
+Model studied: Gemma 3 1B (Gemma Terms of Use). Concepts: Gemma Scope 2 by Google DeepMind (CC-BY-4.0).
+Concept labels were drafted with an AI assistant and reviewed by a human; they are interpretations. Research demo, not an enforcement tool.</footer>
+</main>
+<script>
+let D, ex, feat; const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const num = (x, d=2) => (x === undefined || x === null) ? "–" : Number(x).toFixed(d);
+const name = f => (D.features[f] || {}).label || "not labelled";
+fetch("demo_data.json").then(r => r.json()).then(d => { D = d; init(); });
+function init(){
+  $("title").textContent = D.meta.title; $("subtitle").textContent = D.meta.subtitle;
+  $("links").innerHTML = `<a href="${D.meta.github}">Code (GitHub)</a><a href="${D.meta.dataset}">Dataset</a><a href="${D.meta.model}">Model</a>`;
+  $("stats").innerHTML = D.headline.map(h => `<div class="stat"><b>${esc(h.value)}</b><span>${esc(h.label)}</span></div>`).join("");
+  $("ex").innerHTML = D.examples.map((e,i) => `<option value="${i}">${esc(e.true)} — ${esc(e.preview)}…</option>`).join("");
+  $("ex").onchange = () => pick(+$("ex").value); pick(0);
+}
+function pick(i){
+  ex = D.examples[i]; const fs = Object.keys(ex.acts); feat = fs[0];
+  $("labels").innerHTML = `True code: <b>${esc(ex.true)}</b> · DeBERTa predicts: <b>${esc(ex.pred_m1)}</b> · concept probe predicts: <b>${esc(ex.pred_probe)}</b>`;
+  $("chips").innerHTML = fs.map(f => `<button class="chip" data-f="${f}">#${f} ${esc(name(f))}</button>`).join("");
+  document.querySelectorAll(".chip").forEach(b => b.onclick = () => { feat = b.dataset.f; render(); });
+  render();
+}
+function render(){
+  const a = ex.acts[feat] || [], mx = Math.max(...a, 1e-6);
+  $("text").innerHTML = ex.tokens.map((t,j) => `<span class="tok" style="background:rgba(var(--hl),${((a[j]||0)/mx*0.75).toFixed(2)})">${esc(t)}</span>`).join("");
+  document.querySelectorAll(".chip").forEach(b => b.classList.toggle("on", b.dataset.f === feat));
+  const F = D.features[feat] || {}, tags = [];
+  (F.targets||[]).forEach(t => tags.push(`<span class="tag">${esc(t)}</span>`));
+  if (F.rating) tags.push(`<span class="tag">human rating: ${esc(F.rating)}</span>`);
+  if (F.causal) tags.push(`<span class="tag">causal ✓</span>`);
+  if ((F.leak_share||0) >= 0.5 || String(F.label||"").startsWith("word:")) tags.push(`<span class="tag warn">shortcut: fires on the give-away word</span>`);
+  const abl = F.ablation_effect !== undefined
+    ? `<p>Switching this concept off lowers the model's confidence in <b>${esc(F.ablation_class)}</b> by <b>${num(F.ablation_effect,3)}</b>, which is <b>${num(F.ratio_vs_random,0)}×</b> the effect of switching off a random concept (adjusted p = ${num(F.p_bh,3)}).</p>` : "";
+  $("card").innerHTML = `<h2>#${feat} · ${esc(name(feat))}</h2><div>${tags.join("")}</div>${abl}
+    <div class="meta">Where it fires most strongly in other 2023 reports:</div>
+    ${(F.snippets||[]).map(s => `<div class="snip">${esc(s).replace(/\[\[(.*?)\]\]/g, "<mark>$1</mark>")}</div>`).join("")}`;
+}
+</script></body></html>
